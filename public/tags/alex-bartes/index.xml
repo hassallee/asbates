@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alex Bartes on Dr. Alexander S. Bates</title>
+    <link>https://asbates.com/tags/alex-bartes/</link>
+    <description>Recent content in Alex Bartes on Dr. Alexander S. Bates</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Sat, 03 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://asbates.com/tags/alex-bartes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>about</title>
+      <link>https://asbates.com/about/</link>
+      <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://asbates.com/about/</guid>
+      <description>asbates_wilson_lab
+ I am a neuroscientist studying the neurobiology of animal navigation in the Wilson lab at Harvard Medical School since March 2021. The animal I study is the vinegar fly, Drosophila melanogaster. I used to build connectomics tools and analyses for synaptic-resolution data sets for this little fly in my previous life as University of Cambridge PhD student at the MRC LMB, in the group of Greg Jefferis, and still do sometimes.</description>
+    </item>
+    
+  </channel>
+</rss>

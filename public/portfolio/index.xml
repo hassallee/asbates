@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolios on Dr. Alexander S. Bates</title>
+    <link>https://asbates.com/portfolio/</link>
+    <description>Recent content in Portfolios on Dr. Alexander S. Bates</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Sat, 05 Nov 2016 19:53:42 +0530</lastBuildDate><atom:link href="https://asbates.com/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why map insect brains</title>
+      <link>https://asbates.com/portfolio/interesting/</link>
+      <pubDate>Sat, 05 Nov 2016 19:53:42 +0530</pubDate>
+      
+      <guid>https://asbates.com/portfolio/interesting/</guid>
+      <description>
+&lt;script src=&#34;https://asbates.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#we-all-love-maps&#34;&gt;We all love maps&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“Most benevolent lecturer,
+whose topic is Insect Hearing:
+your effort’s truly fantastic
+but I’d much rather be dreaming”
+~ 9 AM lecture, Laia Serratosa&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Understanding nervous systems</title>
+      <link>https://asbates.com/portfolio/understanding/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      
+      <guid>https://asbates.com/portfolio/understanding/</guid>
+      <description>
+&lt;script src=&#34;https://asbates.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#start-simple&#34;&gt;Start simple&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#something-of-a-pincer-movement&#34;&gt;Something of a pincer movement&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+&lt;dl&gt;
+&lt;dt&gt;“When the systems approach can be connected to the mechanisms approach so that its feedback loop and automata becomes clothed in flesh and blood, we shall see real and exciting progress in understanding behaviour.”&lt;/dt&gt;
+&lt;dd&gt;Kenneth Roeder, 1963
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

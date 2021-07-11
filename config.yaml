@@ -1,0 +1,35 @@
+baseurl: https://asbates.com/
+title: Dr. Alexander S. Bates
+theme: hugo-creative-portfolio-theme
+languageCode: en-uk
+disqusShortname: ''
+googleAnalytics: ''
+params:
+  copyright: '&copy;2021 Alexander Shakeel Bates'
+  description: A personal website for A.S. Bates
+  email: alexander.shakeel.bates@gmail.com
+  navlinks:
+    - home: yes
+      name: home
+      url: portfolio/
+    - name: about
+      url: about/
+    - name: timeline
+      url: timeline/
+    - name: CV
+      url: CV/
+    - name: publications
+      url: publications/
+    - name: get in touch
+      url: contact/
+  sidebarAbout:
+    - I am a neuroscientist and small-time programmer. I work on insect brains. I am interested in how neurons wire together, and how they work together to build complex, innate behaviours.
+    - Originally from London, once of Cambridge, currently in Boston. I like to collaborate, exchange ideas and gossip. This website exists to help you get to know science-me and vinegar fly brains.
+    - “But - I thought flies didn’t have brains?” ~ Joan Bates, Grandmother, circa. Summer 2016
+  social:
+    email: Alexander_Bates@hms.harvard.edu
+    github: https://github.com/alexanderbates
+    linkedin: https://www.linkedin.com/in/alex-bates-22a265a7/
+    twitter: https://twitter.com/as_bates
+  style: default
+bibliography: asb.bib

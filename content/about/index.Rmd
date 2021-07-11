@@ -1,0 +1,31 @@
+---
+title: about
+author: asbates
+date: '2021-07-03'
+slug: []
+categories: []
+tags: ["about", "Alex Bartes"]
+---
+
+![asbates_wilson_lab](index_files/about.jpg)
+
+[I am a neuroscientist](https://scholar.google.com/citations?user=BOVTiXIAAAAJ&hl=en) studying the neurobiology of animal navigation in the [Wilson lab](https://wilson.hms.harvard.edu/) at [Harvard Medical School](https://hms.harvard.edu/) since March 2021. The animal I study is the vinegar fly, *Drosophila melanogaster*. I used to build connectomics tools and analyses for synaptic-resolution data sets for this little fly in my previous life as [University of Cambridge](https://www.cam.ac.uk/) PhD student at the [MRC LMB](https://www2.mrc-lmb.cam.ac.uk/), in the group of [Greg Jefferis](https://en.wikipedia.org/wiki/Gregory_Jefferis), and still do sometimes. I have a whole [thesis](https://t.co/TzCi2OPViD?amp=1) on the matter. I have also lead a scientific student magazine, [BlueSci](https://www.bluesci.co.uk/), and once hoped to be an author of something other than [scientific papers](https://scholar.google.com/citations?view_op=list_mandates&hl=en&user=BOVTiXIAAAAJ&tzom=240); I still hope that a bit.
+
+```{r google.scholar, echo = FALSE, warning=FALSE}
+library(scholar)
+library(ggplot2)
+cit <- get_citation_history('BOVTiXIAAAAJ')
+ggplot(cit,aes(x=year,y=cites, fill = "#FC6882"))+
+    geom_bar(stat='identity')+
+    theme_minimal()+
+    xlab('Year of citation')+
+    ylab('Google Scholar\n cites')+
+    annotate('text',label=format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z"),x=-Inf,y=Inf,vjust=1.5,hjust=-0.05,size=3,colour='gray') + 
+    guides(fill= "none")
+```
+
+I am interested in the structure of small brains. I think that we will be able to learn more about how a nervous system can control its flesh bot from tiny things, than we will from bigger things like mammals. At the moment, I am interested in trying to make in roads starting from the connectomes our field has striven to hard to build. Right now, this means I am trying to interpret navigational circuitry and predict what it does, testing these predictions using a course of behavioural and physiological experimentation. I aim to manipulate and record single cell types from the connectome - single nodes on the grand connectomic graph - while flies are stable and behaving in virtual reality.
+
+```{r echo=FALSE}
+blogdown::shortcode('tweet', '1385488611538350080')
+```

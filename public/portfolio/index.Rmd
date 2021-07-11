@@ -1,0 +1,12 @@
+---
+title: understanding nervous systems
+author: asbates
+date: '2021-07-10'
+slug: []
+categories: []
+tags: []
+draft: false
+image: img/portfolio/gravity-paper.jpg
+showonlyimage: false
+weight: 1
+---
