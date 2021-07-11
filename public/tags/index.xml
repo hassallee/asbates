@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Dr. Alexander S. Bates</title>
-    <link>https://asbates.com/tags/</link>
+    <link>https://as-bates.netlify.app/tags/</link>
     <description>Recent content in Tags on Dr. Alexander S. Bates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Thu, 08 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://asbates.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://as-bates.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>academic timeline</title>
-      <link>https://asbates.com/tags/academic-timeline/</link>
+      <link>https://as-bates.netlify.app/tags/academic-timeline/</link>
       <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://asbates.com/tags/academic-timeline/</guid>
+      <guid>https://as-bates.netlify.app/tags/academic-timeline/</guid>
       <description></description>
     </item>
     
     <item>
       <title>about</title>
-      <link>https://asbates.com/tags/about/</link>
+      <link>https://as-bates.netlify.app/tags/about/</link>
       <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://asbates.com/tags/about/</guid>
+      <guid>https://as-bates.netlify.app/tags/about/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Alex Bartes</title>
-      <link>https://asbates.com/tags/alex-bartes/</link>
+      <link>https://as-bates.netlify.app/tags/alex-bartes/</link>
       <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://asbates.com/tags/alex-bartes/</guid>
+      <guid>https://as-bates.netlify.app/tags/alex-bartes/</guid>
       <description></description>
     </item>
     
