@@ -9,7 +9,7 @@ bibliography: asb.bib
 ---
 
 > “When the systems approach can be connected to the mechanisms approach so that its feedback loop and automata becomes clothed in flesh and blood, we shall see real and exciting progress in understanding behaviour.”
-~ Kenneth Roeder, 1963
+~ ([Kenneth Roeder](https://www.springer.com/gp/book/9783642692734))
 
 <!--more-->
 ### Start simple
@@ -60,3 +60,5 @@ Though a good understanding of the neuroanatomy of an animal needs to be complem
 ### How we can go about it
 
 Let us consider again *T. adherens*. T. adherens clearly computes but lacks any neuronal circuits. To understand it, we could video-record individuals behaving in response to stimuli that an experimenter controls. By using a toolkit that localises genetic engineering, physical ablation, chemical and/or electrical stimulation to individual cells or cell types, neurons can be removed or activated and a mechanistic understanding of their role in the behaviour obtained (figure A).
+
+![fig. approaching nervous systems](https://raw.githubusercontent.com/alexanderbates/asbates/main/static/img/portfolio/enquiry.png)

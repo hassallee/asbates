@@ -84,7 +84,7 @@ but I’d much rather be dreaming”
 &lt;blockquote&gt;
 &lt;dl&gt;
 &lt;dt&gt;“When the systems approach can be connected to the mechanisms approach so that its feedback loop and automata becomes clothed in flesh and blood, we shall see real and exciting progress in understanding behaviour.”&lt;/dt&gt;
-&lt;dd&gt;Kenneth Roeder, 1963
+&lt;dd&gt;(&lt;a href=&#34;https://www.springer.com/gp/book/9783642692734&#34;&gt;Kenneth Roeder&lt;/a&gt;)
 &lt;/dd&gt;
 &lt;/dl&gt;
 &lt;/blockquote&gt;
@@ -100,18 +100,24 @@ but I’d much rather be dreaming”
       <description>
 &lt;script src=&#34;https://asbates.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
-&lt;div id=&#34;TOC&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#header-level-2&#34;&gt;Header Level 2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
 
-&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+&lt;blockquote&gt;
+&lt;p&gt;“THE most obvious differences between different animals are differences
+of size, but for some reason the zoologists have paid singularly little
+attention to them. In a large textbook of zoology before me I find no
+indication that the eagle is larger than the sparrow, or the hippopotamus
+bigger than the hare, though some grudging admissions are made in the case
+of the mouse and the whale. But yet it is easy to show that a hare could not
+be as large as a hippopotamus, or a while as small as a herring. For every
+type of animal there is a most convenient size, and a large change in size
+inevitably carries with it a change of form.”
+(&lt;a href=&#34;https://archive.org/stream/OnBeingTheRightSize-J.B.S.Haldane/rightsize_djvu.txt&#34;&gt;J.B.S. Haldane&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
     </item>
     
     <item>
-      <title>Name of the work 5</title>
+      <title>The fly olfactory system</title>
       <link>https://asbates.com/portfolio/olfaction/</link>
       <pubDate>Sat, 05 Nov 2016 19:53:42 +0530</pubDate>
       
@@ -119,13 +125,193 @@ but I’d much rather be dreaming”
       <description>
 &lt;script src=&#34;https://asbates.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
+
+&lt;p&gt;A tunnel into the brain.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“FROM many directions, workers are tunnelling hopefully into the mountain, some with steam shovels and others with dental drills. Some travel blindly in a circle and come out close to their point of entrance; some connect, usually in a mismatched fashion, with the burrows of others. Some have chosen to disregard the random activities of their fellows and have worked out in a small region an elegant system of tunnels of their own. Both the attraction and confusion of this multitudinous excavation lie in the fact that none of these workers knows precisely what they are looking for, or what they will find.”
+(&lt;a href=&#34;https://www.springer.com/gp/book/9783642692734&#34;&gt;Kenneth Roeder&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>code - insectbrainr</title>
+      <link>https://asbates.com/portfolio/insecbrainr/</link>
+      <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
+      
+      <guid>https://asbates.com/portfolio/insecbrainr/</guid>
+      <description>
+&lt;script src=&#34;https://asbates.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#header-level-2&#34;&gt;Header Level 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#key-functions&#34;&gt;Key Functions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#example&#34;&gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#acknowledging-the-data-and-tools&#34;&gt;Acknowledging the data and tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#acknowledgements&#34;&gt;Acknowledgements&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don’t them.
+&lt;p&gt;&lt;a href=&#34;https://natverse.github.io&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/natverse-Part%20of%20the%20natverse-a241b6&#34; alt=&#34;natverse&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://travis-ci.org/natverse/insectbrainr&#34;&gt;&lt;img src=&#34;https://travis-ci.org/natverse/insectbrainr.svg?branch=master&#34; alt=&#34;Travis build status&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://codecov.io/gh/natverse/insectbrainr?branch=master&#34;&gt;&lt;img src=&#34;https://codecov.io/gh/natverse/insectbrainr/branch/master/graph/badge.svg&#34; alt=&#34;Codecov test coverage&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;http://jefferislab.github.io/insectbrainr/reference/&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/docs-100%25-brightgreen.svg&#34; alt=&#34;Docs&#34; /&gt;&lt;/a&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>code - mouselightr</title>
+      <link>https://asbates.com/portfolio/mouselightr/</link>
+      <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
+      
+      <guid>https://asbates.com/portfolio/mouselightr/</guid>
+      <description>
+&lt;script src=&#34;https://asbates.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#mouselightr&#34;&gt;Mouselightr&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#key-functions&#34;&gt;Key Functions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#example&#34;&gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#acknowledging-the-data-and-tools&#34;&gt;Acknowledging the data and tools&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://natverse.github.io&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/natverse-Part%20of%20the%20natverse-a241b6&#34; alt=&#34;natverse&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://travis-ci.org/natverse/mouselightr&#34;&gt;&lt;img src=&#34;https://travis-ci.org/natverse/mouselightr.svg?branch=master&#34; alt=&#34;Travis build status&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://codecov.io/gh/natverse/mouselightr?branch=master&#34;&gt;&lt;img src=&#34;https://codecov.io/gh/natverse/mouselightr/branch/master/graph/badge.svg&#34; alt=&#34;Codecov test coverage&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;http://natverse.github.io/mouselightr/reference/&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/docs-100%25-brightgreen.svg&#34; alt=&#34;Docs&#34; /&gt;&lt;/a&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>code - neuprintr</title>
+      <link>https://asbates.com/portfolio/neuprintr/</link>
+      <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
+      
+      <guid>https://asbates.com/portfolio/neuprintr/</guid>
+      <description>
+&lt;script src=&#34;https://asbates.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#neuprintr&#34;&gt;neuprintr&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#tutorial&#34;&gt;Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#authentication&#34;&gt;Authentication&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#example&#34;&gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#example-data&#34;&gt;Example data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#acknowledging-the-data-and-tools&#34;&gt;Acknowledging the data and tools&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;!-- badges: start --&gt;
+&lt;p&gt;&lt;a href=&#34;https://natverse.github.io&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/natverse-Part%20of%20the%20natverse-a241b6&#34; alt=&#34;natverse&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;http://natverse.github.io/neuprintr/reference/&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/docs-100%25-brightgreen.svg&#34; alt=&#34;Docs&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://travis-ci.org/natverse/neuprintr&#34;&gt;&lt;img src=&#34;https://api.travis-ci.org/natverse/neuprintr.svg?branch=master&#34; alt=&#34;Travis-CI Build Status&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://codecov.io/gh/natverse/neuprintr?branch=master&#34;&gt;&lt;img src=&#34;https://codecov.io/gh/natverse/neuprintr/branch/master/graph/badge.svg&#34; alt=&#34;Codecov test coverage&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://www.tidyverse.org/lifecycle/#stable&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/lifecycle-stable-brightgreen.svg&#34; alt=&#34;Lifecycle: stable&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://doi.org/10.5281/zenodo.3843544&#34;&gt;&lt;img src=&#34;https://zenodo.org/badge/DOI/10.5281/zenodo.3843544.svg&#34; alt=&#34;DOI&#34; /&gt;&lt;/a&gt;
+&lt;!-- badges: end --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>code - neuromorphr</title>
+      <link>https://asbates.com/portfolio/neuromorphr/</link>
+      <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
+      
+      <guid>https://asbates.com/portfolio/neuromorphr/</guid>
+      <description>
+&lt;script src=&#34;https://asbates.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#neuromorphr&#34;&gt;neuromorphr&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#key-functions&#34;&gt;Key Functions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#example&#34;&gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#submit-to-neuromorpho.org&#34;&gt;Submit to neuromorpho.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#acknowledging-the-data-and-tools&#34;&gt;Acknowledging the data and tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#acknowledgements&#34;&gt;Acknowledgements&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#references&#34;&gt;References&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://natverse.github.io&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/natverse-Part%20of%20the%20natverse-a241b6&#34; alt=&#34;natverse&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://travis-ci.org/jefferislab/neuromorphr&#34;&gt;&lt;img src=&#34;https://api.travis-ci.org/natverse/neuromorphr.svg?branch=master&#34; alt=&#34;Travis-CI Build Status&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://codecov.io/github/jefferislab/neuromorphr?branch=master&#34;&gt;&lt;img src=&#34;https://codecov.io/gh/natverse/neuromorphr/branch/master/graph/badge.svg&#34; alt=&#34;Coverage status&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;http://natverse.github.io/neuromorphr/reference/&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/docs-100%25-brightgreen.svg&#34; alt=&#34;Docs&#34; /&gt;&lt;/a&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>code - neuronbridger</title>
+      <link>https://asbates.com/portfolio/neuronbridger/</link>
+      <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
+      
+      <guid>https://asbates.com/portfolio/neuronbridger/</guid>
+      <description>
+&lt;script src=&#34;https://asbates.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#neuronbridger&#34;&gt;neuronbridger&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#data-sets&#34;&gt;Data sets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#how-have-these-searches-been-performed&#34;&gt;How have these searches been performed?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#why-would-i-need-to-look-at-these-results-in-r&#34;&gt;Why would I need to look at these results in R?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#tutorial&#34;&gt;Tutorial&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#example&#34;&gt;Example&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#get-mip-information-for-a-connectome-neuron&#34;&gt;Get MIP information for a connectome neuron&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#searching-for-hits-among-genetic-driver-lines&#34;&gt;Searching for ‘hits’ among genetic driver lines&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#filtering-for-the-best-hits&#34;&gt;Filtering for the best hits&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#which-connectome-neurons-are-inside-each-genetic-driver-line&#34;&gt;Which connectome neurons are inside each genetic driver line?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#conclusions&#34;&gt;Conclusions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#acknowledgments&#34;&gt;Acknowledgments&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#data-and-tools&#34;&gt;Data and tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#citations&#34;&gt;Citations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;!-- badges: start --&gt;
+&lt;p&gt;&lt;a href=&#34;https://natverse.github.io&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/natverse-Part%20of%20the%20natverse-a241b6&#34; alt=&#34;natverse&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;http://natverse.github.io/neuronbridger/reference/&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/docs-100%25-brightgreen.svg&#34; alt=&#34;Docs&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://travis-ci.com/natverse/neuronbridger&#34;&gt;&lt;img src=&#34;https://travis-ci.com/natverse/neuronbridger.svg?branch=main&#34; alt=&#34;Travis build status&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://codecov.io/gh/natverse/neuronbridger?branch=main&#34;&gt;&lt;img src=&#34;https://codecov.io/gh/natverse/neuronbridger/branch/main/graph/badge.svg&#34; alt=&#34;Codecov test coverage&#34; /&gt;&lt;/a&gt;
+&lt;!-- [![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable) --&gt;
+&lt;!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3843544.svg)](https://doi.org/10.5281/zenodo.3843544) --&gt;
+&lt;!-- badges: end --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fixing academic leadership</title>
+      <link>https://asbates.com/portfolio/leadership/</link>
+      <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
+      
+      <guid>https://asbates.com/portfolio/leadership/</guid>
+      <description>
+&lt;script src=&#34;https://asbates.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;I have been very lucky in that I think I have always worked with great people, on a scientiific and personal level. But many PhD students have horror stories of bad management from their PIs. Is there an easy fix?
 </description>
     </item>
     

@@ -26,6 +26,14 @@ ggplot(cit,aes(x=year,y=cites, fill = "#FC6882"))+
 
 I am interested in the structure of small brains. I think that we will be able to learn more about how a nervous system can control its flesh bot from tiny things, than we will from bigger things like mammals. At the moment, I am interested in trying to make in roads starting from the connectomes our field has striven to hard to build. Right now, this means I am trying to interpret navigational circuitry and predict what it does, testing these predictions using a course of behavioural and physiological experimentation. I aim to manipulate and record single cell types from the connectome - single nodes on the grand connectomic graph - while flies are stable and behaving in virtual reality.
 
+> "INSECTS possess a nervous system that is incredibly complex and differentiated, and whose sophistication attains ultramicroscopic levels ...
+  Certainly, the grey substance [of the brain of vertebrates] has increased considerably in mass, but when one compares its structure with that of the brain of
+  Apidae or Libellulidae, it looks as excessively coarse and rudimentary. It is like pretending to match the rough merit of a standing wall clock with that of a pocket watch,
+  a marvel of delicacy and precision. As usually, the genius of life shines more in the construction of smaller than larger master pieces."
+([SR y Cajal](https://www.britannica.com/biography/Santiago-Ramon-y-Cajal))
+
+Right now, I am just getting started. The first taks is set-up virtual relaityh environments, get the flies behaving properly and start manipulating some neurons I think are involved in prescribing how they navigate.
+
 ```{r echo=FALSE}
 blogdown::shortcode('tweet', '1385488611538350080')
 ```

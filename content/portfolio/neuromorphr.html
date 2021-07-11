@@ -1,0 +1,132 @@
+---
+date: "2016-11-05T19:56:17+05:30"
+draft: false
+image: https://raw.githubusercontent.com/natverse/neuromorphr/11b0aa1f09c3c9e47c8d6e40121530b864df986a/man/figures/logo.svg
+showonlyimage: false
+title: code - neuromorphr
+weight: 6
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+<div id="TOC">
+<ul>
+<li><a href="#neuromorphr">neuromorphr</a>
+<ul>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#key-functions">Key Functions</a></li>
+<li><a href="#example">Example</a></li>
+<li><a href="#submit-to-neuromorpho.org">Submit to neuromorpho.org</a></li>
+<li><a href="#acknowledging-the-data-and-tools">Acknowledging the data and tools</a></li>
+<li><a href="#acknowledgements">Acknowledgements</a></li>
+<li><a href="#references">References</a></li>
+</ul></li>
+</ul>
+</div>
+
+<p><a href="https://natverse.github.io"><img src="https://img.shields.io/badge/natverse-Part%20of%20the%20natverse-a241b6" alt="natverse" /></a>
+<a href="https://travis-ci.org/jefferislab/neuromorphr"><img src="https://api.travis-ci.org/natverse/neuromorphr.svg?branch=master" alt="Travis-CI Build Status" /></a>
+<a href="https://codecov.io/github/jefferislab/neuromorphr?branch=master"><img src="https://codecov.io/gh/natverse/neuromorphr/branch/master/graph/badge.svg" alt="Coverage status" /></a>
+<a href="http://natverse.github.io/neuromorphr/reference/"><img src="https://img.shields.io/badge/docs-100%25-brightgreen.svg" alt="Docs" /></a>
+<!--more-->
+<img src="https://raw.githubusercontent.com/natverse/neuromorphr/11b0aa1f09c3c9e47c8d6e40121530b864df986a/man/figures/logo.svg" align="right" height="139" /></p>
+<div id="neuromorphr" class="section level1">
+<h1>neuromorphr</h1>
+<p>The goal of <em>neuromorphr</em> is to provide R client utilities for interacting with the <a href="http://neuromorpho.org/api.jsp">API</a> for <a href="http://neuromorpho.org">neuromorpho.org</a>. The site <a href="http://neuromorpho.org">neuromorpho.org</a> is a well-known centrally curated inventory of digitally reconstructed neurons associated with peer-reviewed publications. It is continuously updated as new morphological reconstructions are collected, published and shared. It contains contributions from hundreds of laboratories worldwide (see many <a href="http://neuromorpho.org/acknowl.jsp">here</a>). To date, <a href="http://neuromorpho.org">neuromorpho.org</a> is the largest collection of publicly accessible 3D neuronal reconstructions (&gt;100,000) and associated metadata which can be used for detailed single cell simulations. This R package was built to work with version 7.7 of <a href="http://neuromorpho.org">neuromorpho.org</a>. Find it on GitHub <a href="https://github.com/natverse/neuromorphr">here</a>.</p>
+<p>If python is more your poison, there are a few python clients available, for example from <a href="https://github.com/BonsaiNet/Neuromorpho.org">BonsaiNet</a>. Using this R package in concert with the <a href="https://github.com/jefferis/nat">nat</a> ecosystem developed primarily by <a href="https://en.wikipedia.org/wiki/Gregory_Jefferis">Gregory Jefferis</a> is highly recommended. The curators of <a href="http://neuromorpho.org">neuromorpho.org</a> can be contacted at <em><a href="mailto:nmadmin@gmu.edu" class="email">nmadmin@gmu.edu</a></em>.</p>
+<p>In the following, we detail some of <em>neuromorphr</em>’s functionality, and copy and paste some text from <a href="http://neuromorpho.org">neuromorpho.org</a> in order to fill you in on its database and outlook.</p>
+<div id="installation" class="section level2">
+<h2>Installation</h2>
+<p>Firstly, you will need R, R Studio and X Quartz as well as nat and its dependencies. For detailed installation instructions for all this, see <a href="https://jefferis.github.io/nat/articles/Installation.html">here</a>. It should not take too long at all. Then:</p>
+<pre class="r"><code># install
+if (!require(&quot;devtools&quot;)) install.packages(&quot;devtools&quot;)
+devtools::install_github(&quot;natverse/neuromorphr&quot;)
+
+# use 
+library(neuromorphr)</code></pre>
+<p>Done!</p>
+</div>
+<div id="key-functions" class="section level2">
+<h2>Key Functions</h2>
+<p>Now we can have a look at what is available, here are some of the key functions. Their help details examples of their use. You can summon the help in RStudio using <code>?</code> followed by the function name.</p>
+<pre class="r"><code># Sometimes neuromorphr.org can be slow, or down from capacity issues or have a faulty API. Can I check this?
+neuromorpho_is_api_healthy()
+
+# And how can I read neurons from neuromorpho?
+?neuromorphr_read_neurons()
+
+# But first I need neuron names and/or neuron IDs, how do I get those?
+?neuromorpho_search()
+
+# I see, so what metadata do I get with my neurons?
+?neuromorpho_neurons_info()
+?neuromorpho_neurons_meta()
+
+# Interesting, I see a pubmed ID (pmid) is also given. Can I find the scientific artices that describe these neurons?
+?neuromorpho_articles_from_neurons()
+?neuromorpho_literature_search()
+?neuromorpho_get_article()
+
+# I heard something about persistence vectors, they&#39;re used to describe describe meaningful morphological features? Can I get those?
+?neuromorpho_persistence_vectors</code></pre>
+<p>Each neuron in <a href="http://neuromorpho.org">neuromorpho.org</a> is represented by a name, general information (metadata) and a standardised <a href="http://www.neuronland.org/NLMorphologyConverter/MorphologyFormats/SWC/Spec.html">SWC</a> file for the digital morphological reconstruction. Most neurons also have some basic measurements calculated, including for example cable length, in micrometers, and volume, in micrometers cubed. The functions above can get you this information.</p>
+</div>
+<div id="example" class="section level2">
+<h2>Example</h2>
+<p>Here is a quick example for reading some neocortical rat, elephant and whale neurons; plotting them and comparing them:</p>
+<pre class="r"><code># Let&#39;s get neocortical neurons from both the African elephant, the humpback whale and the rat
+neocortex.df = neuromorpho_search(search_terms= c(&quot;species:elephant,humpback whale,rat&quot;, &quot;brain_region:neocortex&quot;))
+
+## Pull measurements, in a data frame
+measurements = neuromorpho_morphometry(neocortex.df$neuron_name, batch.size = 2, data_frame = TRUE)
+ 
+## Assign species column
+measurements$species = neocortex.df[rownames(measurements),&quot;species&quot;]
+ 
+## Boxplot, neuron length
+boxplot(as.numeric(length)~species, data=measurements, notch=FALSE, 
+      col=(c(&quot;deepskyblue1&quot;,&quot;firebrick1&quot;, &quot;darkolivegreen1&quot;)),
+      main=&quot;neocortical neuron lengths&quot;, xlab=&quot;species&quot;)
+ 
+## Boxplot, neuron volume
+boxplot(as.numeric(volume)~species, data=measurements, notch=FALSE, 
+      col=(c(&quot;deepskyblue1&quot;,&quot;firebrick1&quot;, &quot;darkolivegreen1&quot;)),
+      main=&quot;neocortical neuron volumes&quot;, xlab=&quot;species&quot;)
+
+## Read neurons
+pyramidal.cells = neuromorpho_read_neurons(neuron_name = neocortex.df$neuron_name, batch.size = 2, nat = TRUE, progress = TRUE)
+
+## Plot 3D
+plot3d(pyramidal.cells, col = as.factor(species))</code></pre>
+<p>Here’s a subset. In red, elephant, and in blue, whale, cortical pyramidal neurons:</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/jefferislab/neuromorphr/master/inst/images/3dneurons.png" alt="" />
+<p class="caption">3dneurons</p>
+</div>
+</div>
+<div id="submit-to-neuromorpho.org" class="section level2">
+<h2>Submit to neuromorpho.org</h2>
+<p>As well as using this package to interact with neuromorpho.org curated data, you can consider submitted your own neurons if you have been involved in lab work that has acquired 3D reconstructions. The submission process is very straightforward:</p>
+<ol style="list-style-type: decimal">
+<li>E-mail the reconstruction files (zipped, if possible) to: <em><a href="mailto:neuromorpho@gmail.com" class="email">neuromorpho@gmail.com</a></em></li>
+<li>Fill in as much information possible in the <a href="http://neuromorpho.org/about.jsp">Metadata Form</a> and include it in your e-mail</li>
+</ol>
+<p>Feed the beast.</p>
+</div>
+<div id="acknowledging-the-data-and-tools" class="section level2">
+<h2>Acknowledging the data and tools</h2>
+<p>The <a href="http://neuromorpho.org">neuromorpho.org</a> has a <a href="http://neuromorpho.org/useterm.jsp">terms of use</a>, which provides guidance on how best to credit data from these repositories. Most neurons have an associated publication that you can fidn using this package or directly on tthe repositroy websites.</p>
+<p>This package was created by Alexander Bates, while in the group of <a href="https://en.wikipedia.org/wiki/Gregory_Jefferis">Dr. Gregory Jefferis</a>. You can cite this package as:</p>
+<pre class="r"><code>citation(package = &quot;neuromorphr&quot;)</code></pre>
+<p><strong>Bates AS</strong> (2019). <em>neuromorphr: R client utilities for interacting with neuron morphology repositories.</em> <strong>R package</strong> version 0.1.0. <a href="https://github.com/jefferislab/neuromorphr" class="uri">https://github.com/jefferislab/neuromorphr</a></p>
+</div>
+<div id="acknowledgements" class="section level2">
+<h2>Acknowledgements</h2>
+<p><a href="http://neuromorpho.org">neuromorpho.org</a> was started and is maintained by the Computational Neuroanatomy Group at the Krasnow Institute for Advanced Study, George Mason University, under the direction of Prof. Giorgio Ascoli, PhD. This project is part of a consortium for the creation of a “Neuroscience Information Framework,” endorsed by the Society for Neuroscience, funded by the National Institutes of Health, led by Cornell University (Dr. Daniel Gardner), and including numerous academic institutions such as Yale University (Dr. Gordon Shepherd), Stanford University (Dr. Paul Sternberg), and University of California, San Diego (Dr. Maryann Martone). The <a href="http://neuromorpho.org">neuromorpho.org</a> mission statement can be found <a href="http://neuromorpho.org/about.jsp">here</a>.</p>
+</div>
+<div id="references" class="section level2">
+<h2>References</h2>
+<p><strong>Ascoli GA</strong> (2006) <em>Mobilizing the base of neuroscience data: the case of neuronal morphologies</em>. <strong>Nature Rev. Neurosci.</strong>, 7:318-324</p>
+<p><strong>Ascoli GA, Donohue DE, Halavi M.</strong> (2007) <em>NeuroMorpho.Org: a central resource for neuronal morphologies.</em> <strong>J Neurosci.</strong>, 27(35):9247-51</p>
+</div>
+</div>
