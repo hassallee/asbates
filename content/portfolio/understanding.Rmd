@@ -57,8 +57,6 @@ ggplot(count, aes(x=Year, y=Counts, group=search)) +
 
 Though a good understanding of the neuroanatomy of an animal needs to be complemented by a good understanding of the behavioural repertoire of that animal, before we can really get to work on cracking the whole thing. Indeed, The current emphasis on neuronal circuits and their manipulation might be best served by bookending our understanding with better neuroanatomy to one side, and a better understanding of naturalistic behaviours on the other.
 
-### How we an go about it
+### How we can go about it
 
 Let us consider again *T. adherens*. T. adherens clearly computes but lacks any neuronal circuits. To understand it, we could video-record individuals behaving in response to stimuli that an experimenter controls. By using a toolkit that localises genetic engineering, physical ablation, chemical and/or electrical stimulation to individual cells or cell types, neurons can be removed or activated and a mechanistic understanding of their role in the behaviour obtained (figure A).
-
-![pincer](static/img/portfolio/pincer.png)
