@@ -4,7 +4,7 @@ draft: false
 image: img/portfolio/network_red.jpg
 showonlyimage: false
 title: Why map insect brains
-weight: 1
+weight: 2
 bibliography: asb.bib
 ---
 > “Most benevolent lecturer,
@@ -27,7 +27,7 @@ I have contributed to such maps for the vinegar fly, Drosophila melanogaster. Sp
 
 There is a direct connection between cartography and global trade, between the Human Genome Project and personalised medicine, and between some construction manual and the seat in which you are sat. Similarly, connectivity maps will provide a framework in which to think about brains more effectively, and help guide us to an understanding of how organisms do what they do, and maybe a bit about why.
 
-
+![fig. using the map](https://raw.githubusercontent.com/alexanderbates/asbates/main/static/img/portfolio/neuroscience_path.png)
 
 
 

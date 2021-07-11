@@ -8,6 +8,49 @@
     <language>en-uk</language>
     <lastBuildDate>Thu, 08 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://as-bates.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>about</title>
+      <link>https://as-bates.netlify.app/portfolio/about/</link>
+      <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://as-bates.netlify.app/portfolio/about/</guid>
+      <description>
+&lt;script src=&#34;https://as-bates.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://as-bates.netlify.app/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://as-bates.netlify.app/rmarkdown-libs/plotly-binding/plotly.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://as-bates.netlify.app/rmarkdown-libs/typedarray/typedarray.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://as-bates.netlify.app/rmarkdown-libs/jquery/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://as-bates.netlify.app/rmarkdown-libs/crosstalk/css/crosstalk.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;https://as-bates.netlify.app/rmarkdown-libs/crosstalk/js/crosstalk.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://as-bates.netlify.app/rmarkdown-libs/plotly-htmlwidgets-css/plotly-htmlwidgets.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;https://as-bates.netlify.app/rmarkdown-libs/plotly-main/plotly-latest.min.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#me&#34;&gt;Me&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#academic-timeline&#34;&gt;Academic timeline&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#now&#34;&gt;Now&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Hello!
+</description>
+    </item>
+    
+    <item>
+      <title>Welcome to the Natverse</title>
+      <link>https://as-bates.netlify.app/portfolio/natverse/</link>
+      <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
+      
+      <guid>https://as-bates.netlify.app/portfolio/natverse/</guid>
+      <description>
+&lt;script src=&#34;https://as-bates.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Welcome to the Natverse, we have tools for brains!
+</description>
+    </item>
+    
+    <item>
       <title>Why map insect brains</title>
       <link>https://as-bates.netlify.app/portfolio/interesting/</link>
       <pubDate>Sat, 05 Nov 2016 19:53:42 +0530</pubDate>
@@ -33,26 +76,7 @@ but I’d much rather be dreaming”
     </item>
     
     <item>
-      <title>Name of the work 2</title>
-      <link>https://as-bates.netlify.app/portfolio/natverse/</link>
-      <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
-      
-      <guid>https://as-bates.netlify.app/portfolio/natverse/</guid>
-      <description>
-&lt;script src=&#34;https://as-bates.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-&lt;div id=&#34;TOC&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#header-level-2&#34;&gt;Header Level 2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.
-</description>
-    </item>
-    
-    <item>
-      <title>How to get better PIs</title>
+      <title>Neuronal cell types</title>
       <link>https://as-bates.netlify.app/portfolio/cell_types/</link>
       <pubDate>Sat, 05 Nov 2016 19:44:32 +0530</pubDate>
       
@@ -78,40 +102,15 @@ but I’d much rather be dreaming”
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#start-simple&#34;&gt;Start simple&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#how-we-can-go-about-it&#34;&gt;How we can go about it&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#references&#34;&gt;References&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 
 &lt;blockquote&gt;
-&lt;dl&gt;
-&lt;dt&gt;“When the systems approach can be connected to the mechanisms approach so that its feedback loop and automata becomes clothed in flesh and blood, we shall see real and exciting progress in understanding behaviour.”&lt;/dt&gt;
-&lt;dd&gt;(&lt;a href=&#34;https://www.springer.com/gp/book/9783642692734&#34;&gt;Kenneth Roeder&lt;/a&gt;)
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/blockquote&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Item without image</title>
-      <link>https://as-bates.netlify.app/portfolio/connectomics/</link>
-      <pubDate>Sat, 05 Nov 2016 19:50:47 +0530</pubDate>
-      
-      <guid>https://as-bates.netlify.app/portfolio/connectomics/</guid>
-      <description>
-&lt;script src=&#34;https://as-bates.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;blockquote&gt;
-&lt;p&gt;“THE most obvious differences between different animals are differences
-of size, but for some reason the zoologists have paid singularly little
-attention to them. In a large textbook of zoology before me I find no
-indication that the eagle is larger than the sparrow, or the hippopotamus
-bigger than the hare, though some grudging admissions are made in the case
-of the mouse and the whale. But yet it is easy to show that a hare could not
-be as large as a hippopotamus, or a while as small as a herring. For every
-type of animal there is a most convenient size, and a large change in size
-inevitably carries with it a change of form.”
-(&lt;a href=&#34;https://archive.org/stream/OnBeingTheRightSize-J.B.S.Haldane/rightsize_djvu.txt&#34;&gt;J.B.S. Haldane&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;“When the systems approach can be connected to the mechanisms approach
+so that its feedback loop and automata becomes clothed in flesh and blood,
+we shall see real and exciting progress in understanding behaviour.”
+~ (&lt;a href=&#34;https://www.springer.com/gp/book/9783642692734&#34;&gt;Kenneth Roeder&lt;/a&gt;)&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
     </item>
@@ -130,6 +129,41 @@ inevitably carries with it a change of form.”
 &lt;blockquote&gt;
 &lt;p&gt;“FROM many directions, workers are tunnelling hopefully into the mountain, some with steam shovels and others with dental drills. Some travel blindly in a circle and come out close to their point of entrance; some connect, usually in a mismatched fashion, with the burrows of others. Some have chosen to disregard the random activities of their fellows and have worked out in a small region an elegant system of tunnels of their own. Both the attraction and confusion of this multitudinous excavation lie in the fact that none of these workers knows precisely what they are looking for, or what they will find.”
 (&lt;a href=&#34;https://www.springer.com/gp/book/9783642692734&#34;&gt;Kenneth Roeder&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mapping and manipulating connections in small animals</title>
+      <link>https://as-bates.netlify.app/portfolio/connectomics/</link>
+      <pubDate>Sat, 05 Nov 2016 19:50:47 +0530</pubDate>
+      
+      <guid>https://as-bates.netlify.app/portfolio/connectomics/</guid>
+      <description>
+&lt;script src=&#34;https://as-bates.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#state-of-play&#34;&gt;State of play&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#electron-microscopy-can-reveal-all-connections&#34;&gt;Electron microscopy can reveal all connections&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#what-did-the-c.-elegans-connectome-do-for-its-neuroscience&#34;&gt;What did the &lt;em&gt;C. elegans&lt;/em&gt; connectome do for its neuroscience&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#why-flies-are-now-the-frontier&#34;&gt;Why flies are now the frontier&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#concluding-thoughts&#34;&gt;Concluding thoughts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#references&#34;&gt;References&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“THE most obvious differences between different animals are differences
+of size, but for some reason the zoologists have paid singularly little
+attention to them. In a large textbook of zoology before me I find no
+indication that the eagle is larger than the sparrow, or the hippopotamus
+bigger than the hare, though some grudging admissions are made in the case
+of the mouse and the whale. But yet it is easy to show that a hare could not
+be as large as a hippopotamus, or a while as small as a herring. For every
+type of animal there is a most convenient size, and a large change in size
+inevitably carries with it a change of form.”
+(&lt;a href=&#34;https://archive.org/stream/OnBeingTheRightSize-J.B.S.Haldane/rightsize_djvu.txt&#34;&gt;J.B.S. Haldane&lt;/a&gt;)&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
     </item>
@@ -316,7 +350,7 @@ inevitably carries with it a change of form.”
     </item>
     
     <item>
-      <title>Name of the work 6</title>
+      <title>LMB mug</title>
       <link>https://as-bates.netlify.app/portfolio/flywire/</link>
       <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
       
@@ -324,13 +358,7 @@ inevitably carries with it a change of form.”
       <description>
 &lt;script src=&#34;https://as-bates.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
-&lt;div id=&#34;TOC&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#header-level-2&#34;&gt;Header Level 2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
 
-&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don’t them.
 </description>
     </item>
     

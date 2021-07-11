@@ -1,0 +1,56 @@
+﻿event,start,end,group,color,fontcolor,tooltip
+"Neuroscience BSc, UCL",2012-09-01,2015-07-01,work/study,#007BC3,#4D4D4D,"Neuroscience BSc, University College London"
+"Neuroscience PhD, University of Cambridge",2015-09-01,2020-09-30,work/study,#FC6882,#4D4D4D,"PHD Student, MRC LMB, Jefferis Lab"
+Cambridge,2020-10-01,present,work/study,#5CA700,#4D4D4D,"Visiting Scientist at the Department of Zoology, Drosophila Connectomics Group"
+HMS,2020-10-01,present,work/study,#D72000,#4D4D4D,"Postdoctoral Fellow, Wilson Lab"
+EMBO fellow,2021-04-01,present,awards,#1BB6AF,#4D4D4D,Accepted
+Human Frontiers Scholarship,2021-05-01,2021-05-01,awards,#1BB6AF,#4D4D4D,Gratefully declined
+LSRF,2021-06-01,2021-06-01,awards,#1BB6AF,#4D4D4D,Gratefully declined
+Herchel Smith Scholarship,2015-08-01,2019-09-30,awards,#1BB6AF,#4D4D4D,PhD scholarship
+Boehringer Ingelheim Scholarship,2016-08-01,2018-08-01,awards,#1BB6AF,#4D4D4D,PhD scholarship
+Honorary Vice Chancellor's Award,2015-08-01,2015-08-01,awards,#1BB6AF,#4D4D4D,A University of Cambriodge Non-stipendary Award
+Burnstock Prize,2013-07-01,2013-07-01,awards,#1BB6AF,#4D4D4D,"Highest grade in Neuroscience BSc course, 1st year"
+Burnstock Prize,2014-07-01,2014-07-01,awards,#1BB6AF,#4D4D4D,"Highest grade in Neuroscience BSc course, 2nd year"
+Burnstock Prize,2015-07-01,2015-07-01,awards,#1BB6AF,#4D4D4D,"Highest grade in Neuroscience BSc course, 3rd year"
+Max Perutz Prize,2020-10-01,2020-10-01,awards,#1BB6AF,#4D4D4D,A best thesis at the MRC LMB
+BNA Postgraduate Prize,2020-12-01,2020-12-01,awards,#1BB6AF,#4D4D4D,British Neuroscience Association Postgraduate Prize
+Dean's list,2013-07-01,2013-07-01,awards,#1BB6AF,#4D4D4D,"Dean’s list for the Faculty of Life Sciences, awarded based on undergraduate grades"
+Dean's list,2014-07-01,2014-07-01,awards,#1BB6AF,#4D4D4D,"Dean’s list for the Faculty of Life Sciences, awarded based on undergraduate grades"
+Rob Clarke Award,2015-09-01,2015-09-01,awards,#1BB6AF,#4D4D4D,"Rob Clarke Award from the Society of Physiology, awarded for undergraduate projects"
+Brains and Roses,2016-06-01,2016-06-01,meetings,#D5A848,#4D4D4D,talk
+BIF meeting,2017-06-01,2017-06-01,meetings,#D5A848,#4D4D4D,"Boehringer Ingelheim Fonds Hirschegg meeting, talk"
+BIF meeting,2018-06-01,2018-06-01,meetings,#D5A848,#4D4D4D,"Boehringer Ingelheim Fonds Hirschegg meeting, talk"
+MPI Connectomics meeting,2017-10-01,2017-10-01,meetings,#D5A848,#4D4D4D,talk
+ECRO meeting,2017-09-11,2017-09-11,meetings,#D5A848,#4D4D4D,talk
+ECRO meeting,2019-09-11,2019-09-11,meetings,#D5A848,#4D4D4D,long talk
+Paris Spring School in Neuroscience Techniques,2018-06-13,2018-06-28,experience,#D5A848,#4D4D4D,"Paris Spring school, in Optical Imaging and Electrophysiological Recording in Neuroscience, training"
+Dolan and Belliart-Guérin et al. 2016,2018-01-01,2018-01-01,publications,#8FDA04,#4D4D4D,Communication from Learned to Innate Olfactory Processing Centers Is Required for Memory Retrieval in Drosophila
+Bates et al. 2018,2018-10-01,2018-10-01,publications,#EE4244,#4D4D4D,Neuronal Cell Types in the Fly: Single-Cell Anatomy Meets Single-Cell Genomics
+Bates and Manton et al. 2020,2020-04-09,2020-04-09,publications,#EE4244,#4D4D4D,"The Natverse, a Versatile Toolbox for Combining and Analysing Neuroanatomical Data"
+Bates and Schlegel et al. 2020,2020-06-29,2020-06-29,publications,#EE4244,#4D4D4D,Complete Connectomic Reconstruction of Olfactory Projection Neurons in the Fly Brain
+Huoviala et al. 2018,2018-06-11,2018-06-11,publications,#8FDA04,#4D4D4D,Neural circuit basis of aversive odour processing in Drosophila from sensory input to descending output
+Li et al. 2018,2019-05-24,2019-05-24,publications,#8FDA04,#4D4D4D,Automated Reconstruction of a Serial-Section EM Drosophila Brain with Flood-Filling Networks and Local Realignment
+Frechter et al. 2019,2019-05-21,2019-05-21,publications,#8FDA04,#4D4D4D,Functional and anatomical specificity in a higher olfactory centre
+Dolan et al. 2019,2019-05-21,2019-05-21,publications,#8FDA04,#4D4D4D,"Neurogenetic dissection of the Drosophila lateral horn reveals major outputs, diverse behavioural functions, and interactions with the mushroom body"
+Otto et al. 2020,2020-06-05,2020-06-05,publications,#8FDA04,#4D4D4D,Input Connectivity Reveals Additional Heterogeneity of Dopaminergic Reinforcement in Drosophila
+Marin et al. 2020,2020-07-01,2020-07-01,publications,#8FDA04,#4D4D4D,"Connectomics Analysis Reveals First-, Second-, and Third-Order Thermosensory and Hygrosensory Neurons in the Adult Drosophila Brain"
+Eckstein et al. 2020,2020-07-06,2020-07-06,publications,#8FDA04,#4D4D4D,Neurotransmitter Classification from Electron Microscopy Images at Synaptic Sites in Drosophila 
+Scheffer et al. 2020,2020-09-03,2020-09-03,publications,#8FDA04,#4D4D4D,A connectome and analysis of the adult Drosophila central brain
+Cachero et al. 2020,2020-11-02,2020-11-02,publications,#8FDA04,#4D4D4D,"BAcTrace, a tool for retrograde tracing of neuronal circuits in Drosophila"
+Li et al. 2020,2020-12-14,2020-12-14,publications,#8FDA04,#4D4D4D,The connectome of the adult Drosophila mushroom body provides insights into function
+Schlegel and Bates et al. 2021,2021-06-01,2021-06-01,publications,#EE4244,#4D4D4D,"Information flow, cell types and stereotypy in a full olfactory connectome "
+Janelia Research Campus,2019-02-01,2019-03-01,experience,#FBBB48,#4D4D4D,"Visiting Scholar, Janelia Research Campus, Dr. Gerry Rubin’s Group "
+Janelia Research Campus,2016-02-01,2016-05-01,experience,#FBBB48,#4D4D4D,"Visiting Scholar, Janelia Research Campus, Dr. Albert Cardona’s Group"
+University of Queensland,2015-01-06,2015-08-01,experience,#FBBB48,#4D4D4D,"University of Queensland Winter Scholarship, Dr. Ethan Scott’s Group Summer "
+Amgen Shcolarship,2014-01-06,2014-08-01,experience,#FBBB48,#4D4D4D,"Amgen Scholarship, Dr. Landgraf’s Laboratory, Cambridge University"
+UCL iGEM,2013-01-06,2013-08-01,experience,#FBBB48,#4D4D4D,UCL iGEM 2013 Team – Summer 2013
+UCL iGEM Advisor,2014-01-06,2014-08-01,experience,#FBBB48,#4D4D4D,UCL iGEM 2014 Team – Summer 2014
+Cancer Research UK,2013-01-06,2013-08-01,experience,#FBBB48,#4D4D4D,"Student Placement, Cancer Research UK (CRUK), Dr. Tammy Cheng "
+President of BlueSci,2016-01-01,2019-10-01,other,#C70E7B,#4D4D4D,"President of BlueSci, the University of Cambridge’s science media society"
+President of the UCLU Writer's Society,2014-10-01,2015-10-01,other,#C70E7B,#4D4D4D,President of the UCLU Writers’ Society 
+"Science Editor, Pi Magazine",2014-10-01,2015-10-01,other,#C70E7B,#4D4D4D,Science Editor at Pi Media Magazine
+Symposium organiser,2016-05-01,2016-07-01,other,#C70E7B,#4D4D4D,LMB graduate symposium organiser
+Symposium organiser,2017-05-01,2017-07-01,other,#C70E7B,#4D4D4D,Lead LMB graduate symposium organiser
+Mentoring,2017-05-01,2017-07-01,experience,#FBBB48,#4D4D4D,Mentored summer student
+Mentoring,2018-05-01,2018-07-01,experience,#FBBB48,#4D4D4D,Mentored summer student
+Mentoring,2017-09-01,2018-05-01,experience,#FBBB48,#4D4D4D,Mentored undergruate project

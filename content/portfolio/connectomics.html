@@ -1,14 +1,25 @@
 ---
-date: "2016-11-05T19:50:47+05:30"
-draft: false
-image: ""
+title: "Mapping and manipulating connections in small animals"
+draft: no
+date: '2016-11-05T19:50:47+05:30'
+image: img/portfolio/fly_nervous_system.png
 showonlyimage: false
-title: Item without image
-weight: 4
+weight: 3
+bibliography: asb.bib
 ---
 
 <script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
 
+<div id="TOC">
+<ul>
+<li><a href="#state-of-play">State of play</a></li>
+<li><a href="#electron-microscopy-can-reveal-all-connections">Electron microscopy can reveal all connections</a></li>
+<li><a href="#what-did-the-c.-elegans-connectome-do-for-its-neuroscience">What did the <em>C. elegans</em> connectome do for its neuroscience</a></li>
+<li><a href="#why-flies-are-now-the-frontier">Why flies are now the frontier</a></li>
+<li><a href="#concluding-thoughts">Concluding thoughts</a></li>
+<li><a href="#references">References</a></li>
+</ul>
+</div>
 
 <blockquote>
 <p>“THE most obvious differences between different animals are differences
@@ -23,4 +34,162 @@ inevitably carries with it a change of form.”
 (<a href="https://archive.org/stream/OnBeingTheRightSize-J.B.S.Haldane/rightsize_djvu.txt">J.B.S. Haldane</a>)</p>
 </blockquote>
 <!--more-->
-<p>More</p>
+<div id="state-of-play" class="section level3">
+<h3>State of play</h3>
+<p><img src="https://raw.githubusercontent.com/alexanderbates/asbates/main/static/img/portfolio/current_connectomes.png" /></p>
+<p>After Ptolemy there was a dark age for world map making, partly because of the immense effort such an enterprise entails. Similarly, after the 14-year <em>C. elegans</em> feat <span class="citation">(<a href="#ref-White1986-vx" role="doc-biblioref">White et al. 1986</a>)</span>, the field went quiet. It has now returned, this time with the aid of modern computing. At the time of writing, only two species’ full, published connectomes exist. The <em>C. elegans</em>’ connectome of the adult hermaphrodite has 302 (adult male 382) neurons, 6,393 chemical synapses and 890 gap junctions ultimately controlling 95 muscles at 1,410 neuromuscular junctions <span class="citation">(<a href="#ref-Cook2019-tc" role="doc-biblioref">Cook et al. 2019</a>; <a href="#ref-Jarrell2012-ry" role="doc-biblioref">Jarrell et al. 2012</a>; <a href="#ref-Varshney2011-ju" role="doc-biblioref">Varshney et al. 2011</a>; <a href="#ref-White1986-vx" role="doc-biblioref">White et al. 1986</a>)</span>. The connectome of the tadpole larva of the ascidian Ciona intestinalis <span class="citation">(<a href="#ref-Ryan2016-ou" role="doc-biblioref">Ryan et al. 2016</a>)</span>, the closest invertebrate relatives of vertebrates <span class="citation">(<a href="#ref-Delsuc2006-hf" role="doc-biblioref">Delsuc et al. 2006</a>)</span>, weighs in at 177 neurons. Additionally, multiple <em>D. melanogaster</em> connectomes are on the horizon, ranging from ~15,000-150,000 neurons <span class="citation">(<a href="#ref-Ohyama2015-rq" role="doc-biblioref">Ohyama et al. 2015</a>; <a href="#ref-Scheffer2019-ig" role="doc-biblioref">Scheffer and Meinertzhagen 2019</a>)</span>.</p>
+</div>
+<div id="electron-microscopy-can-reveal-all-connections" class="section level3">
+<h3>Electron microscopy can reveal all connections</h3>
+<p><img src="https://raw.githubusercontent.com/alexanderbates/asbates/main/static/img/portfolio/ssTEM.png" /></p>
+<p>Electron microscopy (EM) is the only means by which to resolve fine neurites (&lt;200 nm, as small as 15 nm <span class="citation">(<a href="#ref-Meinertzhagen2016-hc" role="doc-biblioref">Meinertzhagen 2016</a>)</span>), synaptic vesicles (~40 nm) and synaptic clefts (~20 nm) in densely stained tissue, and so see all synaptic connections between neurons in a sample. It provides data that can be mined for both a parts-list and an adjacency matrix of connections between those parts. Other techniques, such as expansion microscopy <span class="citation">(<a href="#ref-Wassie2019-is" role="doc-biblioref">Wassie, Zhao, and Boyden 2019</a>)</span>, super resolution microscopy <span class="citation">(<a href="#ref-Igarashi2018-mm" role="doc-biblioref">Igarashi et al. 2018</a>)</span> and molecular barcode sequencing <span class="citation">(<a href="#ref-Kebschull2018-my" role="doc-biblioref">Kebschull and Zador 2018</a>)</span> can provide sparse information on synaptic connectivity or map single neuron’s projections at scale. While they can provide orthogonal useful information, e.g. on gene expression, they lack the morphological and synaptic connectivity ‘completeness’ EM can provide. There is promise that X-ray tomography may provide another avenue to dense circuit reconstruction and allow researchers to use larger tissue volumes than can typically be easily handled with EM pipelines <span class="citation">(<a href="#ref-Kuan2020-yb" role="doc-biblioref">Kuan et al. 2020</a>)</span>.</p>
+<p>However, due to the high resolution required to resolve fine neurites and synapses, the EM connectomics produces terabyte-scale datasets for even tissue samples &lt;1 mm3. These datasets are small relative to the size of the nervous systems that neurobiologists typically study, because it is difficult, time-consuming and expensive to section, image, store and extract neuroanatomical data for larger pieces. The field is therefore heavily size restricted. Typically these datasets are only in the millions of cubic microns, and frequently only either a smaller sub-volume has been densely reconstructed <span class="citation">(<a href="#ref-Helmstaedter2013-gp" role="doc-biblioref">Helmstaedter et al. 2013</a>)</span>, or small numbers of neurons have been sparsely reconstructed in a larger volume <span class="citation">(<a href="#ref-Dolan2019-fp" role="doc-biblioref">Dolan et al. 2019</a>)</span>. The image data itself can be acquired by various modern automated methodologies.</p>
+<p>Here’s a little summary of modern EM methods and the datasets that have been acquired using them:</p>
+<p><img src="https://raw.githubusercontent.com/alexanderbates/asbates/main/static/img/portfolio/em_methods.png" /></p>
+</div>
+<div id="what-did-the-c.-elegans-connectome-do-for-its-neuroscience" class="section level3">
+<h3>What did the <em>C. elegans</em> connectome do for its neuroscience</h3>
+<p>Some commentators have criticised the modern shift in neuroscientific research back towards descriptive endeavours such as connectomics <span class="citation">(<a href="#ref-Krakauer2017-rj" role="doc-biblioref">Krakauer et al. 2017</a>)</span>, however, the reality is that the <em>C. elegans</em> connectome was both immediately useful and continues to be useful today <span class="citation">(<a href="#ref-Jabr2012-r" role="doc-biblioref"><strong>Jabr2012-r?</strong></a>)</span>. To consider what a from-connectome approach looks like we can examine the case of the escape response in <em>C. elegans</em> <span class="citation">(<a href="#ref-Pirri2012-yg" role="doc-biblioref">Pirri and Alkema 2012</a>)</span>. Early investigators used the connectome to guide laser microsurgery <span class="citation">(<a href="#ref-Chalfie1985-yr" role="doc-biblioref">Chalfie et al. 1985</a>)</span> and genetic perturbations <span class="citation">(<a href="#ref-Zheng1999-ws" role="doc-biblioref">Y. Zheng et al. 1999</a>)</span>, dissociating two motor pathways. Critically they were able to evaluate the interneurons within them, finding four command-like interneurons. The authors could hypothesise which neurons were involved in the forward or backward crawl in response to the activation of touch-sensors, which was later further validated using optogenetics <span class="citation">(<a href="#ref-Leifer2011-yb" role="doc-biblioref">Leifer et al. 2011</a>)</span> and calcium imaging <span class="citation">(<a href="#ref-Chronis2007-ul" role="doc-biblioref">Chronis, Zimmer, and Bargmann 2007</a>)</span>. They could also predict and test that backward crawl suppressed head-casting movements via a specific set of connections <span class="citation">(<a href="#ref-Pirri2009-ja" role="doc-biblioref">Pirri et al. 2009</a>)</span>. Without the connectome as a guide, investigators would have been less able to make the precise interventions necessary to characterise and implicate these ~13/118 cell types in this circuit.</p>
+<p>Once the circuit was established, investigators were able to ask after its behavioural significance. It is known that <em>C. elegans</em>’ escape response is required to survive ‘ring’ traps laid by predacious fungi <span class="citation">(<a href="#ref-Pirri2012-yg" role="doc-biblioref">Pirri and Alkema 2012</a>)</span>. Investigators found that touch-sensitive reversal proves key to escaping ring traps <span class="citation">(<a href="#ref-Maguire2011-ot" role="doc-biblioref">Maguire et al. 2011</a>)</span>. Moreover, reversal with head-casting was more likely to trigger these traps than a smooth exit; these mutants with this phenotype were easily outcompeted by the wild-type. By contrast, insect-associating Pleiorhabditis nematodes do not exhibit this suppression, which might be the result of different selection pressures <span class="citation">(<a href="#ref-Pirri2012-yg" role="doc-biblioref">Pirri and Alkema 2012</a>)</span>. An interesting next question will be whether, and if so in what way, do these species’ escape circuits differ; cell type specific synaptogenesis, receptor expression profiles and neurotransmitter use are all likely, evolutionarily labile substrates.</p>
+</div>
+<div id="why-flies-are-now-the-frontier" class="section level3">
+<h3>Why flies are now the frontier</h3>
+<p>Why not then persist with the <em>C. elegans</em> connectome (e.g. for my PhD for example), where there exist significant foundations but not yet a convincing understanding of how different dynamic states in its nervous system result in behaviour? It is also commonly thought that the behavioural repertoire of the roundworm, and its capacity for more ‘cognitive’ tasks such as learning, is much lesser than the insect <span class="citation">(<a href="#ref-Olsen2008-jg" role="doc-biblioref">Olsen and Wilson 2008</a>)</span>. Unlike roundworms, flies can recognise familiar but displaced objects <span class="citation">(<a href="#ref-Liu2006-er" role="doc-biblioref">Liu et al. 2006</a>; <a href="#ref-Tang2004-tv" role="doc-biblioref">Tang et al. 2004</a>)</span>, recall where a displaced object once was <span class="citation">(<a href="#ref-Neuser2008-on" role="doc-biblioref">Neuser et al. 2008</a>)</span>, respond to small odour concentration changes dependent on the greater sensory context <span class="citation">(<a href="#ref-Faucher2006-gm" role="doc-biblioref">Faucher et al. 2006</a>)</span> and co-compute olfactory and visual information to direct behaviour on foot <span class="citation">(<a href="#ref-Frye2004-br" role="doc-biblioref">Frye and Dickinson 2004</a>; <a href="#ref-Guo2005-by" role="doc-biblioref">Guo and Guo 2005</a>)</span> or in-flight <span class="citation">(<a href="#ref-Duistermars2008-jz" role="doc-biblioref">Duistermars and Frye 2008</a>)</span>. They can also learn to associate certain stimuli with outcomes, even learning to adapt mating strategies in the face of rejection <span class="citation">(<a href="#ref-Ejima2007-ok" role="doc-biblioref">Ejima et al. 2007</a>)</span>. They can discriminate between pheromones and mating songs of similar <em>Drosophilids</em> <span class="citation">(<a href="#ref-Ritchie1999-wg" role="doc-biblioref">Ritchie, Halsey, and Gleason 1999</a>)</span> and fight over resources <span class="citation">(<a href="#ref-Yurkovic2006-jd" role="doc-biblioref">Yurkovic et al. 2006</a>)</span>.</p>
+<p>One of the largest pieces of nervous tissue collected and imaged by EM is a full female adult fly brain <span class="citation">(<a href="#ref-Zheng2018-ff" role="doc-biblioref">Z. Zheng et al. 2018</a>)</span> known as FAFB. It is 40 teravoxels, 21 million serial section transmission EM camera images, within a 995 x 537 x 283 μm volume at a 4 x 4 x 40 nanometer resolution, and takes up 106 terabytes on disk. Sparse connectomic approaches in this dataset are helping to verify and build a range of behaviorally relevant hypotheses <span class="citation">(<a href="#ref-Zheng2018-ff" role="doc-biblioref">Z. Zheng et al. 2018</a>; <a href="#ref-Dolan2018-mb" role="doc-biblioref">Dolan et al. 2018</a>; <a href="#ref-Felsenberg2018-hd" role="doc-biblioref">Felsenberg et al. 2018</a>; <a href="#ref-Frechter2019-yt" role="doc-biblioref">Frechter et al. 2019</a>; <a href="#ref-Huoviala2018-ot" role="doc-biblioref">Huoviala et al. 2018</a>; <a href="#ref-Sayin2018-me" role="doc-biblioref">Sayin et al. 2018</a>; <a href="#ref-Bates2020-ww" role="doc-biblioref">Bates et al. 2020</a>)</span>. Sparse genetic driver lines can then be used to manipulate individual nodes - at least at the cell type level - in the wiring diagram, which is a very powerful way to build some kind of mechanistic hypothesis for a circuit’s action:</p>
+<p><img src="https://raw.githubusercontent.com/alexanderbates/asbates/main/static/img/portfolio/splitgal4.png" /></p>
+</div>
+<div id="concluding-thoughts" class="section level3">
+<h3>Concluding thoughts</h3>
+<p>While connectomes do not provide mechanistic answers to neurobiological questions alone, the connectome is a neuroinformatics scaffold <span class="citation">(<a href="#ref-Swanson2016-zc" role="doc-biblioref">Swanson and Lichtman 2016</a>)</span> onto which other information can be pinned, such as transcriptomes, cell type annotations, response properties of neurons, etc. However, today’s connectomes are single snapshots of single animals. Even if they are representative of a species, we know that synaptic plasticity is rampant across all studied nervous systems. What is important is whether we can extract connectivity motifs that help explain the potency of innate structure in nervous systems.</p>
+</div>
+<div id="references" class="section level3 unnumbered">
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-Bates2020-ww" class="csl-entry">
+Bates, Alexander S, Philipp Schlegel, Ruairi J V Roberts, Nikolas Drummond, Imaan F M Tamimi, Robert Turnbull, Xincheng Zhao, et al. 2020. <span>“Complete Connectomic Reconstruction of Olfactory Projection Neurons in the Fly Brain.”</span> <em>Curr. Biol.</em>, June.
+</div>
+<div id="ref-Chalfie1985-yr" class="csl-entry">
+Chalfie, M, J E Sulston, J G White, E Southgate, J N Thomson, and S Brenner. 1985. <span>“The Neural Circuit for Touch Sensitivity in Caenorhabditis Elegans.”</span> <em>J. Neurosci.</em> 5 (4): 956–64.
+</div>
+<div id="ref-Chronis2007-ul" class="csl-entry">
+Chronis, Nikos, Manuel Zimmer, and Cornelia I Bargmann. 2007. <span>“Microfluidics for in Vivo Imaging of Neuronal and Behavioral Activity in Caenorhabditis Elegans.”</span> <em>Nat. Methods</em> 4 (9): 727–31.
+</div>
+<div id="ref-Cook2019-tc" class="csl-entry">
+Cook, Steven J, Travis A Jarrell, Christopher A Brittin, Yi Wang, Adam E Bloniarz, Maksim A Yakovlev, Ken C Q Nguyen, et al. 2019. <span>“Whole-Animal Connectomes of Both Caenorhabditis Elegans Sexes.”</span> <em>Nature</em> 571 (7763): 63–71.
+</div>
+<div id="ref-Delsuc2006-hf" class="csl-entry">
+Delsuc, Frédéric, Henner Brinkmann, Daniel Chourrout, and Hervé Philippe. 2006. <span>“Tunicates and Not Cephalochordates Are the Closest Living Relatives of Vertebrates.”</span> <em>Nature</em> 439 (7079): 965–68.
+</div>
+<div id="ref-Dolan2018-mb" class="csl-entry">
+Dolan, Michael-John, Ghislain Belliart-Guérin, Alexander Shakeel Bates, Shahar Frechter, Aurélie Lampin-Saint-Amaux, Yoshinori Aso, Ruairı́ J V Roberts, et al. 2018. <span>“Communication from Learned to Innate Olfactory Processing Centers Is Required for Memory Retrieval in Drosophila.”</span> <em>Neuron</em>, September.
+</div>
+<div id="ref-Dolan2019-fp" class="csl-entry">
+Dolan, Michael-John, Shahar Frechter, Alexander Shakeel Bates, Chuntao Dan, Paavo Huoviala, Ruairı́ Jv Roberts, Philipp Schlegel, et al. 2019. <span>“Neurogenetic Dissection of the Drosophila Lateral Horn Reveals Major Outputs, Diverse Behavioural Functions, and Interactions with the Mushroom Body.”</span> <em>Elife</em> 8 (May).
+</div>
+<div id="ref-Duistermars2008-jz" class="csl-entry">
+Duistermars, Brian J, and Mark A Frye. 2008. <span>“Crossmodal Visual Input for Odor Tracking During Fly Flight.”</span> <em>Curr. Biol.</em> 18 (4): 270–75.
+</div>
+<div id="ref-Ejima2007-ok" class="csl-entry">
+Ejima, Aki, Benjamin P C Smith, Christophe Lucas, Wynand van der Goes van Naters, Carson J Miller, John R Carlson, Joel D Levine, and Leslie C Griffith. 2007. <span>“Generalization of Courtship Learning in Drosophila Is Mediated by Cis-Vaccenyl Acetate.”</span> <em>Curr. Biol.</em> 17 (7): 599–605.
+</div>
+<div id="ref-Faucher2006-gm" class="csl-entry">
+Faucher, Cécile, Manfred Forstreuter, Monika Hilker, and Marien de Bruyne. 2006. <span>“Behavioral Responses of Drosophila to Biogenic Levels of Carbon Dioxide Depend on Life-Stage, Sex and Olfactory Context.”</span> <em>J. Exp. Biol.</em> 209 (Pt 14): 2739–48.
+</div>
+<div id="ref-Felsenberg2018-hd" class="csl-entry">
+Felsenberg, Johannes, Pedro F Jacob, Thomas Walker, Oliver Barnstedt, Amelia J Edmondson-Stait, Markus W Pleijzier, Nils Otto, et al. 2018. <span>“Integration of Parallel Opposing Memories Underlies Memory Extinction.”</span> <em>Cell</em> 175 (3): 709–722.e15.
+</div>
+<div id="ref-Frechter2019-yt" class="csl-entry">
+Frechter, Shahar, Alexander Shakeel Bates, Sina Tootoonian, Michael-John Dolan, James D Manton, Arian Rokkum Jamasb, Johannes Kohl, Davi Bock, and Gregory Sxe Jefferis. 2019. <span>“Functional and Anatomical Specificity in a Higher Olfactory Centre.”</span> <em>Elife</em> 8 (May).
+</div>
+<div id="ref-Frye2004-br" class="csl-entry">
+Frye, Mark A, and Michael H Dickinson. 2004. <span>“Motor Output Reflects the Linear Superposition of Visual and Olfactory Inputs in Drosophila.”</span> <em>J. Exp. Biol.</em> 207 (Pt 1): 123–31.
+</div>
+<div id="ref-Guo2005-by" class="csl-entry">
+Guo, Jianzeng, and Aike Guo. 2005. <span>“Crossmodal Interactions Between Olfactory and Visual Learning in Drosophila.”</span> <em>Science</em> 309 (5732): 307–10.
+</div>
+<div id="ref-Helmstaedter2013-gp" class="csl-entry">
+Helmstaedter, Moritz, Kevin L Briggman, Srinivas C Turaga, Viren Jain, H Sebastian Seung, and Winfried Denk. 2013. <span>“Connectomic Reconstruction of the Inner Plexiform Layer in the Mouse Retina.”</span> <em>Nature</em> 500 (7461): 168–74.
+</div>
+<div id="ref-Huoviala2018-ot" class="csl-entry">
+Huoviala, Paavo, Michael-John Dolan, Fiona Love, Shahar Frechter, Ruairi J V Roberts, Zane Mitrevica, Philipp Schlegel, et al. 2018. <span>“Neural Circuit Basis of Aversive Odour Processing in Drosophila from Sensory Input to Descending Output.”</span> <em>bioRxiv</em>.
+</div>
+<div id="ref-Igarashi2018-mm" class="csl-entry">
+Igarashi, Michihiro, Motohiro Nozumi, Ling-Gang Wu, Francesca Cella Zanacchi, István Katona, László Barna, Pingyong Xu, Mingshu Zhang, Fudong Xue, and Edward Boyden. 2018. <span>“New Observations in Neuroscience Using Superresolution Microscopy.”</span> <em>J. Neurosci.</em> 38 (44): 9459–67.
+</div>
+<div id="ref-Jarrell2012-ry" class="csl-entry">
+Jarrell, Travis A, Yi Wang, Adam E Bloniarz, Christopher A Brittin, Meng Xu, J Nichol Thomson, Donna G Albertson, David H Hall, and Scott W Emmons. 2012. <span>“The Connectome of a Decision-Making Neural Network.”</span> <em>Science</em> 337 (6093): 437–44.
+</div>
+<div id="ref-Kebschull2018-my" class="csl-entry">
+Kebschull, Justus M, and Anthony M Zador. 2018. <span>“Cellular Barcoding: Lineage Tracing, Screening and Beyond.”</span> <em>Nat. Methods</em> 15 (11): 871–79.
+</div>
+<div id="ref-Krakauer2017-rj" class="csl-entry">
+Krakauer, John W, Asif A Ghazanfar, Alex Gomez-Marin, Malcolm A MacIver, and David Poeppel. 2017. <span>“Neuroscience Needs Behavior: Correcting a Reductionist Bias.”</span> <em>Neuron</em> 93 (3): 480–90.
+</div>
+<div id="ref-Kuan2020-yb" class="csl-entry">
+Kuan, Aaron T, Jasper S Phelps, Logan A Thomas, Tri M Nguyen, Julie Han, Chiao-Lin Chen, Anthony W Azevedo, et al. 2020. <span>“Dense Neuronal Reconstruction Through x-Ray Holographic Nano-Tomography.”</span> <em>Nat. Neurosci.</em>, September.
+</div>
+<div id="ref-Leifer2011-yb" class="csl-entry">
+Leifer, Andrew M, Christopher Fang-Yen, Marc Gershow, Mark J Alkema, and Aravinthan D T Samuel. 2011. <span>“Optogenetic Manipulation of Neural Activity in Freely Moving Caenorhabditis Elegans.”</span> <em>Nat. Methods</em> 8 (2): 147–52.
+</div>
+<div id="ref-Liu2006-er" class="csl-entry">
+Liu, Gang, Holger Seiler, Ai Wen, Troy Zars, Kei Ito, Reinhard Wolf, Martin Heisenberg, and Li Liu. 2006. <span>“Distinct Memory Traces for Two Visual Features in the Drosophila Brain.”</span> <em>Nature</em> 439 (7076): 551–56.
+</div>
+<div id="ref-Maguire2011-ot" class="csl-entry">
+Maguire, Sean M, Christopher M Clark, John Nunnari, Jennifer K Pirri, and Mark J Alkema. 2011. <span>“The c. Elegans Touch Response Facilitates Escape from Predacious Fungi.”</span> <em>Curr. Biol.</em> 21 (15): 1326–30.
+</div>
+<div id="ref-Meinertzhagen2016-hc" class="csl-entry">
+Meinertzhagen, Ian A. 2016. <span>“Connectome Studies on Drosophila: A Short Perspective on a Tiny Brain.”</span> <em>J. Neurogenet.</em> 30 (2): 62–68.
+</div>
+<div id="ref-Neuser2008-on" class="csl-entry">
+Neuser, Kirsa, Tilman Triphan, Markus Mronz, Burkhard Poeck, and Roland Strauss. 2008. <span>“Analysis of a Spatial Orientation Memory in Drosophila.”</span> <em>Nature</em> 453 (7199): 1244–47.
+</div>
+<div id="ref-Ohyama2015-rq" class="csl-entry">
+Ohyama, Tomoko, Casey M Schneider-Mizell, Richard D Fetter, Javier Valdes Aleman, Romain Franconville, Marta Rivera-Alba, Brett D Mensh, et al. 2015. <span>“A Multilevel Multimodal Circuit Enhances Action Selection in Drosophila.”</span> <em>Nature</em> 520 (7549): 633–39.
+</div>
+<div id="ref-Olsen2008-jg" class="csl-entry">
+Olsen, Shawn R, and Rachel I Wilson. 2008. <span>“Cracking Neural Circuits in a Tiny Brain: New Approaches for Understanding the Neural Circuitry of Drosophila.”</span> <em>Trends Neurosci.</em> 31 (10): 512–20.
+</div>
+<div id="ref-Pirri2012-yg" class="csl-entry">
+Pirri, Jennifer K, and Mark J Alkema. 2012. <span>“The Neuroethology of c. Elegans Escape.”</span> <em>Curr. Opin. Neurobiol.</em> 22 (2): 187–93.
+</div>
+<div id="ref-Pirri2009-ja" class="csl-entry">
+Pirri, Jennifer K, Adam D McPherson, Jamie L Donnelly, Michael M Francis, and Mark J Alkema. 2009. <span>“A Tyramine-Gated Chloride Channel Coordinates Distinct Motor Programs of a Caenorhabditis Elegans Escape Response.”</span> <em>Neuron</em> 62 (4): 526–38.
+</div>
+<div id="ref-Ritchie1999-wg" class="csl-entry">
+Ritchie, M G, E J Halsey, and J M Gleason. 1999. <span>“Drosophila Song as a Species-Specific Mating Signal and the Behavioural Importance of Kyriacou &amp; Hall Cycles in d. Melanogaster Song.”</span> <em>Anim. Behav.</em> 58 (3): 649–57.
+</div>
+<div id="ref-Ryan2016-ou" class="csl-entry">
+Ryan, Kerrianne, Zhiyuan Lu, Ian A Meinertzhagen, E Belloni, M Muenke, E Roessler, G Traverso, et al. 2016. <span>“The <span>CNS</span> Connectome of a Tadpole Larva of <em>Ciona Intestinalis</em> (l.) Highlights Sidedness in the Brain of a Chordate Sibling.”</span> <em>Elife</em> 5 (December): 353–56.
+</div>
+<div id="ref-Sayin2018-me" class="csl-entry">
+Sayin, S, J F De Backer, M E Wosniack, L P Lewis, and others. 2018. <span>“A Neural Circuit Arbitrates Between Perseverance and Withdrawal in Hungry Drosophila.”</span> <em>bioRxiv</em>.
+</div>
+<div id="ref-Scheffer2019-ig" class="csl-entry">
+Scheffer, Louis K, and Ian A Meinertzhagen. 2019. <span>“The Fly Brain Atlas.”</span> <em>Annu. Rev. Cell Dev. Biol.</em>, July.
+</div>
+<div id="ref-Swanson2016-zc" class="csl-entry">
+Swanson, Larry W, and Jeff W Lichtman. 2016. <span>“From Cajal to Connectome and Beyond.”</span> <em>Annu. Rev. Neurosci.</em> 39 (July): 197–216.
+</div>
+<div id="ref-Tang2004-tv" class="csl-entry">
+Tang, Shiming, Reinhard Wolf, Shuping Xu, and Martin Heisenberg. 2004. <span>“Visual Pattern Recognition in Drosophila Is Invariant for Retinal Position.”</span> <em>Science</em> 305 (5686): 1020–22.
+</div>
+<div id="ref-Varshney2011-ju" class="csl-entry">
+Varshney, Lav R, Beth L Chen, Eric Paniagua, David H Hall, and Dmitri B Chklovskii. 2011. <span>“Structural Properties of the Caenorhabditis Elegans Neuronal Network.”</span> <em>PLoS Comput. Biol.</em> 7 (2).
+</div>
+<div id="ref-Wassie2019-is" class="csl-entry">
+Wassie, Asmamaw T, Yongxin Zhao, and Edward S Boyden. 2019. <span>“Expansion Microscopy: Principles and Uses in Biological Research.”</span> <em>Nat. Methods</em> 16 (1): 33–41.
+</div>
+<div id="ref-White1986-vx" class="csl-entry">
+White, J G, E Southgate, J N Thomson, and S Brenner. 1986. <span>“The Structure of the Nervous System of the Nematode Caenorhabditis Elegans.”</span> <em>Philos. Trans. R. Soc. Lond. B Biol. Sci.</em> 314 (1165): 1–340.
+</div>
+<div id="ref-Yurkovic2006-jd" class="csl-entry">
+Yurkovic, Alexandra, Oulu Wang, Alo C Basu, and Edward A Kravitz. 2006. <span>“Learning and Memory Associated with Aggression in Drosophila Melanogaster.”</span> <em>Proc. Natl. Acad. Sci. U. S. A.</em> 103 (46): 17519–24.
+</div>
+<div id="ref-Zheng1999-ws" class="csl-entry">
+Zheng, Y, P J Brockie, J E Mellem, D M Madsen, and A V Maricq. 1999. <span>“Neuronal Control of Locomotion in c. Elegans Is Modified by a Dominant Mutation in the <span>GLR-1</span> Ionotropic Glutamate Receptor.”</span> <em>Neuron</em> 24 (2): 347–61.
+</div>
+<div id="ref-Zheng2018-ff" class="csl-entry">
+Zheng, Zhihao, J Scott Lauritzen, Eric Perlman, Camenzind G Robinson, Matthew Nichols, Daniel Milkie, Omar Torrens, et al. 2018. <span>“A Complete Electron Microscopy Volume of the Brain of Adult Drosophila Melanogaster.”</span> <em>Cell</em> 174 (3): 730–743.e22.
+</div>
+</div>
+</div>

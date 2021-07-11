@@ -1,0 +1,57 @@
+---
+title: about
+date: '2021-07-03'
+image: img/about.jpg
+showonlyimage: true
+weight: 1
+bibliography: asb.bib
+---
+
+Hello!
+<!--more-->
+
+![](https://raw.githubusercontent.com/alexanderbates/asbates/main/static/img/about.jpg)
+
+### Me
+
+[I am a neuroscientist](https://scholar.google.com/citations?user=BOVTiXIAAAAJ&hl=en) studying the neurobiology of animal navigation in the [Wilson lab](https://wilson.hms.harvard.edu/) at [Harvard Medical School](https://hms.harvard.edu/) since March 2021. The animal I study is the vinegar fly, *Drosophila melanogaster*. I used to build connectomics tools and analyses for synaptic-resolution data sets for this little fly in my previous life as [University of Cambridge](https://www.cam.ac.uk/) PhD student at the [MRC LMB](https://www2.mrc-lmb.cam.ac.uk/), in the group of [Greg Jefferis](https://en.wikipedia.org/wiki/Gregory_Jefferis), and still do sometimes. I have a whole [thesis](https://t.co/TzCi2OPViD?amp=1) on the matter. I have also lead a scientific student magazine, [BlueSci](https://www.bluesci.co.uk/), and once hoped to be an author of something other than [scientific papers](https://scholar.google.com/citations?view_op=list_mandates&hl=en&user=BOVTiXIAAAAJ&tzom=240); I still hope that a bit.
+
+```{r google.scholar, echo = FALSE, warning=FALSE}
+library(scholar)
+library(ggplot2)
+cit <- get_citation_history('BOVTiXIAAAAJ')
+ggplot(cit,aes(x=year,y=cites, fill = "#FC6882"))+
+    geom_bar(stat='identity')+
+    theme_minimal()+
+    xlab('Year of citation')+
+    ylab('Google Scholar\n cites')+
+    annotate('text',label=format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z"),x=-Inf,y=Inf,vjust=1.5,hjust=-0.05,size=3,colour='gray') + 
+    guides(fill= "none")
+```
+
+I am interested in the structure of small brains. I think that we will be able to learn more about how a nervous system can control its flesh bot from tiny things, than we will from bigger things like mammals. At the moment, I am interested in trying to make in roads starting from the connectomes our field has striven to hard to build. Right now, this means I am trying to interpret navigational circuitry and predict what it does, testing these predictions using a course of behavioural and physiological experimentation. I aim to manipulate and record single cell types from the connectome - single nodes on the grand connectomic graph - while flies are stable and behaving in virtual reality.
+
+> "INSECTS possess a nervous system that is incredibly complex and differentiated, and whose sophistication attains ultramicroscopic levels ...
+  Certainly, the grey substance [of the brain of vertebrates] has increased considerably in mass, but when one compares its structure with that of the brain of
+  Apidae or Libellulidae, it looks as excessively coarse and rudimentary. It is like pretending to match the rough merit of a standing wall clock with that of a pocket watch,
+  a marvel of delicacy and precision. As usually, the genius of life shines more in the construction of smaller than larger master pieces."
+([SR y Cajal](https://www.britannica.com/biography/Santiago-Ramon-y-Cajal))
+
+### Academic timeline
+
+```{r timeline, echo = FALSE, warning=FALSE, out.height = "50%", out.width = "100%", fig.width=80, fig.height=100}
+library(vistime)
+data <- read.csv(file="data/timeline.csv")
+events <- c("education", "work/study", "awards", "publications", "meetings", "experience", "other")
+data <- data[order(match(data$event,events)),]
+data$end[data$end=="present"] = as.character(Sys.Date())
+vistime::vistime(data, optimize_y = TRUE, linewidth = 25, show_labels = TRUE)
+```
+
+### Now
+
+Right now, I am just getting started. The first task is set-up virtual reality environments, get the flies behaving properly and start manipulating some neurons I think are involved in prescribing how they navigate.
+
+```{r echo=FALSE}
+blogdown::shortcode('tweet', '1385488611538350080')
+```

@@ -5,6 +5,7 @@ image: img/portfolio/gravity-paper.jpg
 showonlyimage: false
 title: Neuronal cell types
 weight: 2
+bibliography: asb.bib
 ---
 
 Fifth abundantly made Give sixth hath. Cattle creature i be don't them.

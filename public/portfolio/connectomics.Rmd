@@ -1,12 +1,12 @@
 ---
-date: "2016-11-05T19:50:47+05:30"
-draft: false
-image: ""
+title: "Mapping and manipulating connections in small animals"
+draft: no
+date: '2016-11-05T19:50:47+05:30'
+image: img/portfolio/fly_nervous_system.png
 showonlyimage: false
-title: Item without image
-weight: 4
+weight: 3
+bibliography: asb.bib
 ---
-
 > "THE most obvious differences between different animals are differences 
 of size, but for some reason the zoologists have paid singularly little 
 attention to them. In a large textbook of zoology before me I find no 
@@ -20,4 +20,41 @@ inevitably carries with it a change of form."
 
 <!--more-->
 
-More
+### State of play
+
+![](https://raw.githubusercontent.com/alexanderbates/asbates/main/static/img/portfolio/current_connectomes.png)
+
+After Ptolemy there was a dark age for world map making, partly because of the immense effort such an enterprise entails. Similarly, after the 14-year *C. elegans* feat [@White1986-vx], the field went quiet. It has now returned, this time with the aid of modern computing. At the time of writing, only two species’ full, published connectomes exist. The *C. elegans*’ connectome of the adult hermaphrodite has 302 (adult male 382) neurons, 6,393 chemical synapses and 890 gap junctions ultimately controlling 95 muscles at 1,410 neuromuscular junctions [@Cook2019-tc; @Jarrell2012-ry; @Varshney2011-ju; @White1986-vx]. The connectome of the tadpole larva of the ascidian Ciona intestinalis [@Ryan2016-ou], the closest invertebrate relatives of vertebrates [@Delsuc2006-hf], weighs in at 177 neurons. Additionally, multiple *D. melanogaster* connectomes are on the horizon, ranging from ~15,000-150,000 neurons [@Ohyama2015-rq; @Scheffer2019-ig].
+
+### Electron microscopy can reveal all connections
+
+![](https://raw.githubusercontent.com/alexanderbates/asbates/main/static/img/portfolio/ssTEM.png)
+
+Electron microscopy (EM) is the only means by which to resolve fine neurites (<200 nm, as small as 15 nm [@Meinertzhagen2016-hc]), synaptic vesicles (~40 nm) and synaptic clefts (~20 nm) in densely stained tissue, and so see all synaptic connections between neurons in a sample. It provides data that can be mined for both a parts-list and an adjacency matrix of connections between those parts. Other techniques, such as expansion microscopy [@Wassie2019-is], super resolution microscopy [@Igarashi2018-mm] and molecular barcode sequencing [@Kebschull2018-my] can provide sparse information on synaptic connectivity or map single neuron’s projections at scale. While they can provide orthogonal useful information, e.g. on gene expression, they lack the morphological and synaptic connectivity ‘completeness’ EM can provide. There is promise that X-ray tomography may provide another avenue to dense circuit reconstruction and allow researchers to use larger tissue volumes than can typically be easily handled with EM pipelines [@Kuan2020-yb].
+
+However, due to the high resolution required to resolve fine neurites and synapses, the EM connectomics produces terabyte-scale datasets for even tissue samples <1 mm3. These datasets are small relative to the size of the nervous systems that neurobiologists typically study, because it is difficult, time-consuming and expensive to section, image, store and extract neuroanatomical data for larger pieces. The field is therefore heavily size restricted. Typically these datasets are only in the millions of cubic microns, and frequently only either a smaller sub-volume has been densely reconstructed [@Helmstaedter2013-gp], or small numbers of neurons have been sparsely reconstructed in a larger volume [@Dolan2019-fp]. The image data itself can be acquired by various modern automated methodologies.
+
+Here's a little summary of modern EM methods and the datasets that have been acquired using them:
+
+![](https://raw.githubusercontent.com/alexanderbates/asbates/main/static/img/portfolio/em_methods.png)
+
+### What did the *C. elegans* connectome do for its neuroscience
+
+Some commentators have criticised the modern shift in neuroscientific research back towards descriptive endeavours such as connectomics [@Krakauer2017-rj], however, the reality is that the *C. elegans* connectome was both immediately useful and continues to be useful today [@Jabr2012-r]. To consider what a from-connectome approach looks like we can examine the case of the escape response in *C. elegans* [@Pirri2012-yg]. Early investigators used the connectome to guide laser microsurgery [@Chalfie1985-yr] and genetic perturbations [@Zheng1999-ws], dissociating two motor pathways. Critically they were able to evaluate the interneurons within them, finding four command-like interneurons. The authors could hypothesise which neurons were involved in the forward or backward crawl in response to the activation of touch-sensors, which was later further validated using optogenetics [@Leifer2011-yb] and calcium imaging [@Chronis2007-ul]. They could also predict and test that backward crawl suppressed head-casting movements via a specific set of connections [@Pirri2009-ja]. Without the connectome as a guide, investigators would have been less able to make the precise interventions necessary to characterise and implicate these ~13/118 cell types in this circuit. 
+
+Once the circuit was established, investigators were able to ask after its behavioural significance. It is known that *C. elegans*’ escape response is required to survive ‘ring’ traps laid by predacious fungi [@Pirri2012-yg]. Investigators found that touch-sensitive reversal proves key to escaping ring traps [@Maguire2011-ot]. Moreover, reversal with head-casting was more likely to trigger these traps than a smooth exit; these mutants with this phenotype were easily outcompeted by the wild-type. By contrast, insect-associating Pleiorhabditis nematodes do not exhibit this suppression, which might be the result of different selection pressures [@Pirri2012-yg]. An interesting next question will be whether, and if so in what way, do these species’ escape circuits differ; cell type specific synaptogenesis, receptor expression profiles and neurotransmitter use are all likely, evolutionarily labile substrates.
+
+### Why flies are now the frontier
+
+Why not then persist with the *C. elegans* connectome (e.g. for my PhD for example), where there exist significant foundations but not yet a convincing understanding of how different dynamic states in its nervous system result in behaviour? It is also commonly thought that the behavioural repertoire of the roundworm, and its capacity for more ‘cognitive’ tasks such as learning, is much lesser than the insect [@Olsen2008-jg]. Unlike roundworms, flies can recognise familiar but displaced objects [@Liu2006-er; @Tang2004-tv], recall where a displaced object once was [@Neuser2008-on], respond to small odour concentration changes dependent on the greater sensory context [@Faucher2006-gm] and co-compute olfactory and visual information to direct behaviour on foot [@Frye2004-br; @Guo2005-by] or in-flight [@Duistermars2008-jz]. They can also learn to associate certain stimuli with outcomes, even learning to adapt mating strategies in the face of rejection [@Ejima2007-ok]. They can discriminate between pheromones and mating songs of similar *Drosophilids* [@Ritchie1999-wg] and fight over resources [@Yurkovic2006-jd].
+
+One of the largest pieces of nervous tissue collected and imaged by EM is a full female adult fly brain [@Zheng2018-ff] known as FAFB. It is 40 teravoxels, 21 million serial section transmission EM camera images, within a 995 x 537 x 283 μm volume at a 4 x 4 x 40 nanometer resolution, and takes up 106 terabytes on disk. Sparse connectomic approaches in this dataset are helping to verify and build a range of behaviorally relevant hypotheses [@Zheng2018-ff; @Dolan2018-mb; @Felsenberg2018-hd; @Frechter2019-yt; @Huoviala2018-ot; @Sayin2018-me; @Bates2020-ww]. Sparse genetic driver lines can then be used to manipulate individual nodes - at least at the cell type level - in the wiring diagram, which is a very powerful way to build some kind of mechanistic hypothesis for a circuit's action:
+
+![](https://raw.githubusercontent.com/alexanderbates/asbates/main/static/img/portfolio/splitgal4.png)
+
+### Concluding thoughts
+
+While connectomes do not provide mechanistic answers to neurobiological questions alone, the connectome is a neuroinformatics scaffold [@Swanson2016-zc] onto which other information can be pinned, such as transcriptomes, cell type annotations, response properties of neurons, etc. However, today’s connectomes are single snapshots of single animals. Even if they are representative of a species, we know that synaptic plasticity is rampant across all studied nervous systems. What is important is whether we can extract connectivity motifs that help explain the potency of innate structure in nervous systems.
+
+### References
+

@@ -4,7 +4,8 @@ draft: false
 image: img/portfolio/pinkplume.png
 showonlyimage: false
 title: The fly olfactory system
-weight: 5
+weight: 3
+bibliography: asb.bib
 ---
 
 A tunnel into the brain.
