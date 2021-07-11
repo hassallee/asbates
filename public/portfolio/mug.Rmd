@@ -1,0 +1,14 @@
+---
+date: "2016-11-05T19:56:17+05:30"
+draft: false
+image: img/portfolio/lmb_mug_half.png
+showonlyimage: true
+title: LMB mug
+weight: 10
+---
+
+<!--more-->
+
+I designed a mug to be sold at my PhD institute, the MRC LMB! Not sure if you can still buy them, but if so, please do!
+
+![](https://raw.githubusercontent.com/alexanderbates/asbates/main/static/img/portfolio/lmb_mug.png)
