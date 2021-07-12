@@ -7,12 +7,15 @@ categories: []
 tags: academic timeline
 ---
 
-```{r timeline, echo = FALSE, warning=FALSE, out.height = "50%", out.width = "100%", fig.width=80, fig.height=100}
+```{r timeline, echo = FALSE, warning=FALSE}
 library(vistime)
+library(plotly)
 data <- read.csv(file="data/timeline.csv")
 events <- c("education", "work/study", "awards", "publications", "meetings", "experience", "other")
 data <- data[order(match(data$event,events)),]
 data$end[data$end=="present"] = as.character(Sys.Date())
-vistime::vistime(data, optimize_y = TRUE, linewidth = 25, show_labels = TRUE)
+fig <- vistime::vistime(data, optimize_y = TRUE, linewidth = 25, show_labels = TRUE)
+fig <- fig %>% layout(autosize = F, width = 1500, height = 1500)
+fig
 ```
 
