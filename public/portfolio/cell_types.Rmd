@@ -1,7 +1,7 @@
 ---
 date: "2016-11-05T19:44:32+05:30"
 draft: false
-image: img/portfolio/asb_drosophila_neuron_3.jpg
+image: img/portfolio/asb_drosophila_neuron_3.png
 showonlyimage: false
 title: Neuronal cell types
 weight: 2
