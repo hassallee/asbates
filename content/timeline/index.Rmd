@@ -7,9 +7,9 @@ categories: []
 tags: academic timeline
 ---
 
-```{r timeline, echo = FALSE, warning=FALSE}
+```{r timeline, echo = FALSE, warning=FALSE, out.height = "300%", out.width = "300%", fig.width=300, fig.height=300}
 library(vistime)
-library(plotly)
+suppressMessages(library(plotly))
 data <- read.csv(file="data/timeline.csv")
 events <- c("education", "work/study", "awards", "publications", "meetings", "experience", "other")
 data <- data[order(match(data$event,events)),]
