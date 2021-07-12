@@ -15,7 +15,7 @@ events <- c("education", "work/study", "awards", "publications", "meetings", "ex
 data <- data[order(match(data$event,events)),]
 data$end[data$end=="present"] = as.character(Sys.Date())
 fig <- vistime::vistime(data, optimize_y = TRUE, linewidth = 25, show_labels = TRUE)
-fig <- fig %>% layout(autosize = F, width = 1500, height = 1500)
+fig <- fig %>% layout(autosize = F, width = 3000, height = 3000, uniformtext=list(minsize=8, mode='hide'))
 fig
 ```
 
