@@ -23,13 +23,13 @@ People’s interests vary but everyone loves a good map. Indeed, having a good m
 
 The problem is that current technology does not allow for such a map for an entire human brain’s ~86 billion cells [@Herculano-Houzel2009-wf]. The synapse-resolution image data storage alone would be in the zettabyte (10^21) range [@Swanson2016-zc]. Of older maps, there are essentially two varieties. Those that are smaller and perhaps foundational (figure A), and those that are wrong. Brain science has plenty of the latter. Think of the phrenology busts that appear so often in antique stores, and ascribe ‘hope’, ‘sublimity’ and ‘self-esteem’ to positions on the skull. But we are now making great progress with the small maps.
 
-![fig. brains and mapping](https://raw.githubusercontent.com/alexanderbates/asbates/main/static/img/portfolio/brain_mapping.png)
+![](https://raw.githubusercontent.com/alexanderbates/asbates/main/static/img/portfolio/brain_mapping.png)
 
 I have contributed to such maps for the vinegar fly, *Drosophila melanogaster*. Specifically, to a nub at the side of the brain known as the ‘lateral horn’, believed to inform innate responses to odour stimuli. As I will go on to explain, it is a good region to examine if one is interested in extracting circuit-to-behaviour hypotheses from a wiring diagram (figure B). 
 
 There is a direct connection between cartography and global trade, between the Human Genome Project and personalised medicine, and between some construction manual and the seat in which you are sat. Similarly, connectivity maps will provide a framework in which to think about brains more effectively, and help guide us to an understanding of how organisms do what they do, and maybe a bit about why.
 
-![fig. using the map](https://raw.githubusercontent.com/alexanderbates/asbates/main/static/img/portfolio/neuroscience_path.png)
+![](https://raw.githubusercontent.com/alexanderbates/asbates/main/static/img/portfolio/neuroscience_path.png)
 
 
 

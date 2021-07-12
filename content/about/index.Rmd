@@ -4,10 +4,10 @@ author: asbates
 date: '2021-07-03'
 slug: []
 categories: []
-tags: ["about", "Alex Bartes"]
+tags: ["about", "Alex Bates"]
 ---
 
-![asbates_wilson_lab](index_files/about.jpg)
+![](index_files/about.jpg)
 
 [I am a neuroscientist](https://scholar.google.com/citations?user=BOVTiXIAAAAJ&hl=en) studying the neurobiology of animal navigation in the [Wilson lab](https://wilson.hms.harvard.edu/) at [Harvard Medical School](https://hms.harvard.edu/) since March 2021. The animal I study is the vinegar fly, *Drosophila melanogaster*. I used to build connectomics tools and analyses for synaptic-resolution data sets for this little fly in my previous life as [University of Cambridge](https://www.cam.ac.uk/) PhD student at the [MRC LMB](https://www2.mrc-lmb.cam.ac.uk/), in the group of [Greg Jefferis](https://en.wikipedia.org/wiki/Gregory_Jefferis), and still do sometimes. I have a whole [thesis](https://t.co/TzCi2OPViD?amp=1) on the matter. I have also lead a scientific student magazine, [BlueSci](https://www.bluesci.co.uk/), and once hoped to be an author of something other than [scientific papers](https://scholar.google.com/citations?view_op=list_mandates&hl=en&user=BOVTiXIAAAAJ&tzom=240); I still hope that a bit.
 
