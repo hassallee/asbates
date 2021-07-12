@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolios on Dr. Alexander S. Bates</title>
-    <link>www.asbates.com/portfolio/</link>
+    <link>https://as-bates.netlify.app/portfolio/</link>
     <description>Recent content in Portfolios on Dr. Alexander S. Bates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sat, 03 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="www.asbates.com/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://as-bates.netlify.app/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about</title>
-      <link>www.asbates.com/portfolio/about/</link>
+      <link>https://as-bates.netlify.app/portfolio/about/</link>
       <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>www.asbates.com/portfolio/about/</guid>
+      <guid>https://as-bates.netlify.app/portfolio/about/</guid>
       <description>
-&lt;script src=&#34;www.asbates.com/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;www.asbates.com/www.asbates.comrmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;www.asbates.com/www.asbates.comrmarkdown-libs/plotly-binding/plotly.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;www.asbates.com/www.asbates.comrmarkdown-libs/typedarray/typedarray.min.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;www.asbates.com/www.asbates.comrmarkdown-libs/jquery/jquery.min.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;www.asbates.com/www.asbates.comrmarkdown-libs/crosstalk/css/crosstalk.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;www.asbates.com/www.asbates.comrmarkdown-libs/crosstalk/js/crosstalk.min.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;www.asbates.com/www.asbates.comrmarkdown-libs/plotly-htmlwidgets-css/plotly-htmlwidgets.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;www.asbates.com/www.asbates.comrmarkdown-libs/plotly-main/plotly-latest.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/plotly-binding/plotly.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/typedarray/typedarray.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/jquery/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/crosstalk/css/crosstalk.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/crosstalk/js/crosstalk.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/plotly-htmlwidgets-css/plotly-htmlwidgets.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/plotly-main/plotly-latest.min.js&#34;&gt;&lt;/script&gt;
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
@@ -38,12 +38,12 @@
     
     <item>
       <title>Welcome to the Natverse</title>
-      <link>www.asbates.com/portfolio/natverse/</link>
+      <link>https://as-bates.netlify.app/portfolio/natverse/</link>
       <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
       
-      <guid>www.asbates.com/portfolio/natverse/</guid>
+      <guid>https://as-bates.netlify.app/portfolio/natverse/</guid>
       <description>
-&lt;script src=&#34;www.asbates.com/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
@@ -64,12 +64,12 @@
     
     <item>
       <title>Why map insect brains</title>
-      <link>www.asbates.com/portfolio/interesting/</link>
+      <link>https://as-bates.netlify.app/portfolio/interesting/</link>
       <pubDate>Sat, 05 Nov 2016 19:53:42 +0530</pubDate>
       
-      <guid>www.asbates.com/portfolio/interesting/</guid>
+      <guid>https://as-bates.netlify.app/portfolio/interesting/</guid>
       <description>
-&lt;script src=&#34;www.asbates.com/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
@@ -89,12 +89,12 @@ but I’d much rather be dreaming”
     
     <item>
       <title>Neuronal cell types</title>
-      <link>www.asbates.com/portfolio/cell_types/</link>
+      <link>https://as-bates.netlify.app/portfolio/cell_types/</link>
       <pubDate>Sat, 05 Nov 2016 19:44:32 +0530</pubDate>
       
-      <guid>www.asbates.com/portfolio/cell_types/</guid>
+      <guid>https://as-bates.netlify.app/portfolio/cell_types/</guid>
       <description>
-&lt;script src=&#34;www.asbates.com/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
@@ -116,12 +116,12 @@ some interpretative criteria for the nervous systems of
     
     <item>
       <title>Understanding nervous systems</title>
-      <link>www.asbates.com/portfolio/understanding/</link>
+      <link>https://as-bates.netlify.app/portfolio/understanding/</link>
       <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
       
-      <guid>www.asbates.com/portfolio/understanding/</guid>
+      <guid>https://as-bates.netlify.app/portfolio/understanding/</guid>
       <description>
-&lt;script src=&#34;www.asbates.com/asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://as-bates.netlify.app/asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
@@ -142,12 +142,12 @@ we shall see real and exciting progress in understanding behaviour.”
     
     <item>
       <title>The fly olfactory system</title>
-      <link>www.asbates.com/portfolio/olfaction/</link>
+      <link>https://as-bates.netlify.app/portfolio/olfaction/</link>
       <pubDate>Sat, 05 Nov 2016 19:53:42 +0530</pubDate>
       
-      <guid>www.asbates.com/portfolio/olfaction/</guid>
+      <guid>https://as-bates.netlify.app/portfolio/olfaction/</guid>
       <description>
-&lt;script src=&#34;www.asbates.com/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
@@ -167,12 +167,12 @@ we shall see real and exciting progress in understanding behaviour.”
     
     <item>
       <title>Mapping and manipulating connections in small animals</title>
-      <link>www.asbates.com/portfolio/connectomics/</link>
+      <link>https://as-bates.netlify.app/portfolio/connectomics/</link>
       <pubDate>Sat, 05 Nov 2016 19:50:47 +0530</pubDate>
       
-      <guid>www.asbates.com/portfolio/connectomics/</guid>
+      <guid>https://as-bates.netlify.app/portfolio/connectomics/</guid>
       <description>
-&lt;script src=&#34;www.asbates.com/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
@@ -202,12 +202,12 @@ inevitably carries with it a change of form.”
     
     <item>
       <title>code - insectbrainr</title>
-      <link>www.asbates.com/portfolio/insecbrainr/</link>
+      <link>https://as-bates.netlify.app/portfolio/insecbrainr/</link>
       <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
       
-      <guid>www.asbates.com/portfolio/insecbrainr/</guid>
+      <guid>https://as-bates.netlify.app/portfolio/insecbrainr/</guid>
       <description>
-&lt;script src=&#34;www.asbates.com/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
@@ -228,12 +228,12 @@ inevitably carries with it a change of form.”
     
     <item>
       <title>code - mouselightr</title>
-      <link>www.asbates.com/portfolio/mouselightr/</link>
+      <link>https://as-bates.netlify.app/portfolio/mouselightr/</link>
       <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
       
-      <guid>www.asbates.com/portfolio/mouselightr/</guid>
+      <guid>https://as-bates.netlify.app/portfolio/mouselightr/</guid>
       <description>
-&lt;script src=&#34;www.asbates.com/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
@@ -256,12 +256,12 @@ inevitably carries with it a change of form.”
     
     <item>
       <title>code - neuprintr</title>
-      <link>www.asbates.com/portfolio/neuprintr/</link>
+      <link>https://as-bates.netlify.app/portfolio/neuprintr/</link>
       <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
       
-      <guid>www.asbates.com/portfolio/neuprintr/</guid>
+      <guid>https://as-bates.netlify.app/portfolio/neuprintr/</guid>
       <description>
-&lt;script src=&#34;www.asbates.com/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
@@ -290,12 +290,12 @@ inevitably carries with it a change of form.”
     
     <item>
       <title>code - neuromorphr</title>
-      <link>www.asbates.com/portfolio/neuromorphr/</link>
+      <link>https://as-bates.netlify.app/portfolio/neuromorphr/</link>
       <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
       
-      <guid>www.asbates.com/portfolio/neuromorphr/</guid>
+      <guid>https://as-bates.netlify.app/portfolio/neuromorphr/</guid>
       <description>
-&lt;script src=&#34;www.asbates.com/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
@@ -321,12 +321,12 @@ inevitably carries with it a change of form.”
     
     <item>
       <title>code - neuronbridger</title>
-      <link>www.asbates.com/portfolio/neuronbridger/</link>
+      <link>https://as-bates.netlify.app/portfolio/neuronbridger/</link>
       <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
       
-      <guid>www.asbates.com/portfolio/neuronbridger/</guid>
+      <guid>https://as-bates.netlify.app/portfolio/neuronbridger/</guid>
       <description>
-&lt;script src=&#34;www.asbates.com/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
@@ -369,12 +369,12 @@ inevitably carries with it a change of form.”
     
     <item>
       <title>Fixing academic leadership</title>
-      <link>www.asbates.com/portfolio/leadership/</link>
+      <link>https://as-bates.netlify.app/portfolio/leadership/</link>
       <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
       
-      <guid>www.asbates.com/portfolio/leadership/</guid>
+      <guid>https://as-bates.netlify.app/portfolio/leadership/</guid>
       <description>
-&lt;script src=&#34;www.asbates.com/asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://as-bates.netlify.app/asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;I have been very lucky in that I think I have always worked with great people, on a scientiific and personal level. But many PhD students have horror stories of bad management from their PIs. Is there an easy fix?
@@ -383,12 +383,12 @@ inevitably carries with it a change of form.”
     
     <item>
       <title>LMB mug</title>
-      <link>www.asbates.com/portfolio/mug/</link>
+      <link>https://as-bates.netlify.app/portfolio/mug/</link>
       <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
       
-      <guid>www.asbates.com/portfolio/mug/</guid>
+      <guid>https://as-bates.netlify.app/portfolio/mug/</guid>
       <description>
-&lt;script src=&#34;www.asbates.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://as-bates.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 </description>

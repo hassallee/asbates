@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Dr. Alexander S. Bates</title>
-    <link>www.asbates.com/categories/</link>
+    <link>https://as-bates.netlify.app/categories/</link>
     <description>Recent content in Categories on Dr. Alexander S. Bates</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-uk</language><atom:link href="www.asbates.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-uk</language><atom:link href="https://as-bates.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
