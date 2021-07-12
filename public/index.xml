@@ -43,10 +43,22 @@
       
       <guid>www.asbates.com/portfolio/natverse/</guid>
       <description>
-&lt;script src=&#34;www.asbates.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;www.asbates.com/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#what-does-the-natverse-do&#34;&gt;What does the natverse do?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 
-&lt;p&gt;Welcome to the Natverse, we have tools for brains!
+&lt;p&gt;Welcome to the natverse, we have tools for brains!&lt;/p&gt;
+&lt;!-- badges: start --&gt;
+&lt;p&gt;&lt;a href=&#34;https://natverse.github.io&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/natverse-Part%20of%20the%20natverse-a241b6&#34; alt=&#34;natverse&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://github.com/natverse/natverse/releases/&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/v/release/natverse/natverse&#34; alt=&#34;GitHub&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://natverse.github.io/natverse/reference/&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/docs-100%25-brightgreen.svg&#34; alt=&#34;Docs&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://travis-ci.org/natverse/natverse&#34;&gt;&lt;img src=&#34;https://travis-ci.org/natverse/natverse.svg?branch=master&#34; alt=&#34;Travis build status&#34; /&gt;&lt;/a&gt;
+&lt;a href=&#34;https://coveralls.io/r/natverse/natverse?branch=master&#34;&gt;&lt;img src=&#34;https://coveralls.io/repos/github/natverse/natverse/badge.svg&#34; alt=&#34;Coveralls test coverage&#34; /&gt;&lt;/a&gt;
+&lt;!-- badges: end --&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -135,8 +147,15 @@ we shall see real and exciting progress in understanding behaviour.”
       
       <guid>www.asbates.com/portfolio/olfaction/</guid>
       <description>
-&lt;script src=&#34;www.asbates.com/asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;www.asbates.com/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#the-drosophila-olfactory-system&#34;&gt;The drosophila olfactory system&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#odour-encoding-and-decoding&#34;&gt;Odour encoding and decoding&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#odour-scenes&#34;&gt;Odour scenes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 
 &lt;p&gt;A tunnel into the brain.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -188,7 +207,7 @@ inevitably carries with it a change of form.”
       
       <guid>www.asbates.com/portfolio/insecbrainr/</guid>
       <description>
-&lt;script src=&#34;www.asbates.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;www.asbates.com/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
@@ -214,7 +233,7 @@ inevitably carries with it a change of form.”
       
       <guid>www.asbates.com/portfolio/mouselightr/</guid>
       <description>
-&lt;script src=&#34;www.asbates.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;www.asbates.com/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
@@ -242,7 +261,7 @@ inevitably carries with it a change of form.”
       
       <guid>www.asbates.com/portfolio/neuprintr/</guid>
       <description>
-&lt;script src=&#34;www.asbates.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;www.asbates.com/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
@@ -276,7 +295,7 @@ inevitably carries with it a change of form.”
       
       <guid>www.asbates.com/portfolio/neuromorphr/</guid>
       <description>
-&lt;script src=&#34;www.asbates.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;www.asbates.com/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
@@ -307,7 +326,7 @@ inevitably carries with it a change of form.”
       
       <guid>www.asbates.com/portfolio/neuronbridger/</guid>
       <description>
-&lt;script src=&#34;www.asbates.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;www.asbates.com/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;

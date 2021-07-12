@@ -15,4 +15,18 @@ A tunnel into the brain.
 
 <!--more-->
 
-More
+![](https://raw.githubusercontent.com/alexanderbates/asbates/main/static/img/portfolio/flybrain_olfactory_path.png)
+This page is a work in progress...
+
+### The drosophila olfactory system
+
+![](https://raw.githubusercontent.com/alexanderbates/asbates/main/static/img/portfolio/olfactory_system.png)
+![](https://raw.githubusercontent.com/alexanderbates/asbates/main/static/img/portfolio/mb_learning.png)
+
+### Odour encoding and decoding
+
+![](https://raw.githubusercontent.com/alexanderbates/asbates/main/static/img/portfolio/odour_coding.png)
+
+### Odour scenes
+
+![](https://raw.githubusercontent.com/alexanderbates/asbates/main/static/img/portfolio/odour_scenes.png)

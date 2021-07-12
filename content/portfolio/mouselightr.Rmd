@@ -2,7 +2,7 @@
 date: "2016-11-05T19:56:17+05:30"
 draft: false
 image: https://raw.githubusercontent.com/natverse/mouselightr/9c2ce1c3146b2afb186298b7cc8419ecdb4d725a/man/figures/logo.svg
-showonlyimage: false
+showonlyimage: true
 title: code - mouselightr
 weight: 6
 ---

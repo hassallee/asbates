@@ -2,7 +2,7 @@
 date: "2016-11-05T19:56:17+05:30"
 draft: false
 image: https://raw.githubusercontent.com/natverse/neuronbridger/33811ed8ddbf4230873ba986e3c52485799938dc/man/figures/logo.svg
-showonlyimage: false
+showonlyimage: true
 title: code - neuronbridger
 weight: 6
 ---

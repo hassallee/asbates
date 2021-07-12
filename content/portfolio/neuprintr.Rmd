@@ -2,7 +2,7 @@
 date: "2016-11-05T19:56:17+05:30"
 draft: false
 image: https://raw.githubusercontent.com/natverse/neuprintr/696f62f60f760596d95d92ada9a03233b33b6bab/man/figures/logo.svg
-showonlyimage: false
+showonlyimage: true
 title: code - neuprintr
 weight: 6
 ---

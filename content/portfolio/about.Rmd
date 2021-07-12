@@ -52,6 +52,6 @@ vistime::vistime(data, optimize_y = TRUE, linewidth = 25, show_labels = TRUE)
 
 Right now, I am just getting started. The first task is set-up virtual reality environments, get the flies behaving properly and start manipulating some neurons I think are involved in prescribing how they navigate.
 
-```{r echo=FALSE}
+```{r echo=FALSE, eval = FALSE}
 blogdown::shortcode('tweet', '1385488611538350080')
 ```
