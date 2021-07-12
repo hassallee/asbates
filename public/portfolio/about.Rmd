@@ -39,7 +39,7 @@ I am interested in the structure of small brains. I think that we will be able t
 
 ### Academic timeline
 
-```{r timeline, echo = FALSE, warning=FALSE, out.height = "50%", out.width = "100%", fig.width=80, fig.height=100}
+```{r timeline, echo = FALSE, warning=FALSE}
 library(vistime)
 data <- read.csv(file="data/timeline.csv")
 events <- c("education", "work/study", "awards", "publications", "meetings", "experience", "other")

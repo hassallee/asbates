@@ -1,14 +1,89 @@
 ---
 date: "2016-11-05T19:44:32+05:30"
 draft: false
-image: img/portfolio/gravity-paper.jpg
+image: img/portfolio/asb_drosophila_neuron_3.jpg
 showonlyimage: false
 title: Neuronal cell types
 weight: 2
 bibliography: asb.bib
 ---
 
-Fifth abundantly made Give sixth hath. Cattle creature i be don't them.
+> "Would it be too ambitious to expect that, at least in relation
+to certain sensory centers or particular mechanisms of
+neuronal reaction, invertebrates, especially insects, offer
+some interpretative criteria for the nervous systems of
+'superior' vertebrates?”"
+([SR y Cajal](https://www.britannica.com/biography/Santiago-Ramon-y-Cajal))
+
 <!--more-->
 
-I think that 
+Below I'll give a bit of an over view and then delve into a definition for cell types for insects that I think would be useful. 
+I have also given this view as part of a review, in slightly different words [@Bates2019-hn].
+
+![](https://raw.githubusercontent.com/alexanderbates/asbates/main/static/img/portfolio/neuron_linked.png)
+
+### A definition
+
+Broadly, there are those that approach cell types as zoologists [@Bota2007-py; @Zeng2017-vl] and those that approach them as demographers, that is to say that some want to compress neurons’ dynamism into rigid hierarchies that yield a stable nomenclature, and those that want to engage in a statistical study of shifting and re-definable populations. 
+
+Arguably, zoology befits the *D. melanogaster* nervous system because we are approaching a data quorum in morphology and molecular genetics for the stable distinction of neuronal cell types using quantitative methodologies though not quite yet in physiology. Personally, I see the threshold ‘for zoology’ as a morphological handle on enough neurons, that new morphologies rarely offer a complete surprise - one has already seen something like it before. For the fly brain, I guess that this means ~30% coverage, which is approximately what the [FlyCircuit](http://www.flycircuit.tw/) data set supplies.
+
+![](https://raw.githubusercontent.com/alexanderbates/asbates/main/static/img/portfolio/typing_scheme.png)
+
+In species taxonomy, central principles for classification include reproductive isolation, phylogeny and phenotypic similarity. As with species, neuronal types are ultimately the reproducible product of definable genomic regulatory programs active during development, perhaps including synaptic plasticity. One could approximate this developmental ‘aim’ as the average of the cell phenotypes that it produces – its developmental Platonic form. Each real neuron would be generated from this ideal by a somewhat noisy but statistically characterisable process. Analogous to the valleys in Waddington's epigenetic landscape, stable cell states have a certain width that represents the allowed variance of a cell state while retaining its unique identity. Neurons of a different type may vary significantly in some features but still be related by others. It is helpful to capture this in a hierarchical scheme that posits relationships between types. These ideas might drive us to consider classes of generative models that would capture the statistical regularities of neuronal types [@Farhoodi2018-fk].
+
+Although in phylogeny, reproductive isolation is a hypothesis that can sometimes be tested, it is generally a thought experiment that calibrates definitions based on other measures e.g. genomic sequence similarity. A similar hypothesis for neuroscience might be that:
+
+> Neurons of a type can be consistently identified across individuals but not consistently subdivided within individuals.
+
+This does not specify what neuronal features should be used for subdivision, but these could include variations in key functional properties: connectivity, gene expression, response properties and, most easily, morphology. There are four key, and often complementary, ways of getting large amounts of morphology data for Drosophila: dye filling neurons, genetic tools for stochastic expression, orthogonal transgene expression systems and neuron reconstructions from electron microscopy, which have produced large datasets (table 2). It is important to note that these datasets are heavily genetically biased, but clearly this deluge of light-level data is a strong resource for cell typing.
+
+A principled system for cell typing will become increasingly important as the field transitions from studying a small number of systems that have been most amenable to genetic and anatomical access, and embraces the new horizons large-scale driver line generation and connectomics has begun to offer.
+
+I suggest the following, which I shall try to employ throughout this work:
+
+> **Class:** *a neuronal type’s identity as either a sensory neuron, a local neuron, an output neuron or a motoneuron, or similar discriminator.* 
+
+> **Group:** *a malleable category by which an investigator can group varied neuronal types based on a higher level feature that they perceive as consistent and significant for the system of study, for example the olfactory tract taken by antennal lobe projection neurons.*
+
+> **Cluster:** *neuronal types of a shared developmental lineage, most usably, of the same cell body fibre.*
+
+> **Type:** *neurons of a type have a ‘shared morphology’ and ‘physiologically relevant gene expression’, and therefore a presumed or proven functional equivalency.* 
+
+> **Subtype:** *minor divisions of unknown or lesser operational importance within a neuronal type based on consistent differential expression of key genes, connectivity or electrophysiology. To be avoided where possible.*
+
+![](https://raw.githubusercontent.com/alexanderbates/asbates/main/static/img/portfolio/brain_wide_typing.png)
+
+One might immediately note that these classes depend on defining ‘meaningful’ sub-volumes from which a neuron might ‘output’ or to which it might be ‘local’. Significantly, adult *D. melanogaster* possesses an expert-consensus neuropil itemisation for its brain [@Otsuna2006-hn] and VNS [@Court2017-dh], and attempts have been made for the larva [@Younossi-Hartenstein2003-aa], though these divisions could be improved upon [@Robie2017-bg].
+
+As mentioned above a central principle for species classification is the notion of reproductive isolation. A crucial, equivalent testable hypothesis then for the arthropod neuroscience field is whether neurons that cluster together morphologically exhibit low variation in their physiology, synaptic connectivity and gene expression within an animal, between animals, and between closely related species; this certainly seems to be the case. 
+
+Ergo, a first rule for insect neuronal cell typing:
+
+> 1. Neurons of a shared morphology are to be considered the same functional unit until proven otherwise
+
+A second important principle in species taxonomy is that of phylogeny, which might be substituted for by ontogeny in the case of cell types [@Zeng2017-vl]. *D. melanogaster’s* ~200 central brain [@Ito1992-tx], ~1000 optic lobe [@Hofbauer1990-ib], ~800 VNS neuromere [@Birkholz2013-fa] neuroblasts consistently create the same neuronal structures and the same, diverse types [@Yu2013-fx], with some lineages identifiable across taxa [@Boyan2017-rk]. Each insect neuron can be linked to lineage by morphology. The insect neuron is unipolar, its single cell body fibre is sent into the neuropil, fasciculating with other neurons of similar developmental origin before bifurcation, in a stereotyped manner [@Cardona2010-eb]. (In vertebrate brains, stereotyped fibre pathways may provide similarly useful features [@Hildebrand2017-qh].) It has been suggested that cell body fascicles form a natural grouping system amenable to exhaustive identification by quantitative methods [@Cardona2010-eb], not least because as a lineage-proxy they may indicate common gene expression [@Yang2016-un]. There are likely a limited number of these tracts subject to a small variance. The ‘hemilineages’ they represent are the building blocks of insect brains [Truman2004-io].
+
+So a second rule:
+
+> 2. Neurons that are considered to have a shared morphology must have the same cell body fibre tract
+
+We must now face an issue of electronics; the neuronal cell types of the nervous system comprise a huge circuit. Components in an electrical system can be considered the same but might be present in different motifs of that circuit, such that their circuit roles differ; is a 10 Amp branded transistor in sub-circuit A and sub-circuit B, the same? Neurobiologically, this might be equivalent to asking whether we should consider neurons with the same gene expression profile across the brain, or globular local neurons in different neuropils, as a single cell type. What matters is not that the transistor is a 10 Amp Toshiba, but what it does for our radio signal. 
+
+The brains of larger animals comprise assemblies of neurons in columns and layers and such, whereas for the most part, studied arthropod brains are more economical and tend not to repeat modules across physical space in the brain. There are some notable exceptions. For example, each of D. melanogaster’s ~800 ommatidia, with its 8 photoreceptors, subserves a unique region of the visual field and wires with a ‘visual column’ through the lamina, medulla and lobula that comprises an estimated ~60 neuronal cell types. But researchers in the field equate circuit-similar neurons across columns because doing so highlights the general, repeated motifs of the system and aids comprehension [@Zhao2014-zk].
+
+The overlap of both axons and dendrites in 3D space is a starting point for defining a neuronal type since neurite apposition is suggestive of synaptic connectivity [Rees2017-tb], which in turn is indicative of circuit role. Therefore, the overlap of both axon and dendrite in 3D space is often used for cell typing, as arbours are typically stereotyped within 2-3 µm (imago brain ~4x106 µm3) [@Schlegel2017-ig]. With EM reconstructions from the same single brain, investigators have found mid-to-high axon-dendrite overlap highly predictive of connectivity in the fly, even if they do not always correlate (different rules may apply for dendro-dendritic and axo-axonic connections [@Bates2020-ww]). Clustering neurons by connectivity and morphology can produce similar results [@Costa2016-nq], but morphology may be a more consistent indicator of neuronal type. Weak connections can account for a large fraction of a connectome and can be manifold and variable between identified neurons across hemispheres [@Ohyama2015-rq], repeated structures [@Takemura2015-au] or animals [@Couton2015-ql], perhaps as a product of small-scale activity-dependent structural changes or intrinsic developmental variability. Neuronal activity does affect structural plasticity in the central brain if limited in the adult , but these changes are not dramatic enough to threaten our understanding of type by morphology.
+
+In terms of response properties, it might be unsurprising that isomorphic neurons close to the sensory periphery respond similarly to stimuli, especially when their dendrites are clearly compartmentalised, for example into glomerul. But crucially, it seems that even in integrative insect neuropils, neurons of high morphological similarity have stereotyped or otherwise predictable responses to stimuli and consistent basic electrical properties [@Frechter2019-yt]. 
+
+So now a third rule:
+
+> 3. Neurons of a shared morphology must co-localise in a standard reference space, either an averaged whole nervous system space or an averaged, repeated neural structure
+
+Neuronal types might also be algorithmically, semi-automatically assigned and named at scale by their lineage association, neuropil innervation patterns and/or fine neuroanatomy using these three rules, e.g. [@Frechter2019-yt]. 
+
+A data acquisition and cell typing pipeline might look like:
+
+![](https://raw.githubusercontent.com/alexanderbates/asbates/main/static/img/portfolio/typing_pipeline.png)
+
+### References
