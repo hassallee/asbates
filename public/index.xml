@@ -8,31 +8,15 @@
     <language>en-uk</language>
     <lastBuildDate>Thu, 08 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://as-bates.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>about</title>
+      <title>hello</title>
       <link>https://as-bates.netlify.app/portfolio/about/</link>
       <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://as-bates.netlify.app/portfolio/about/</guid>
       <description>
-&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/plotly-binding/plotly.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/typedarray/typedarray.min.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/jquery/jquery.min.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/crosstalk/css/crosstalk.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/crosstalk/js/crosstalk.min.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/plotly-htmlwidgets-css/plotly-htmlwidgets.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/plotly-main/plotly-latest.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://as-bates.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
-&lt;div id=&#34;TOC&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#me&#34;&gt;Me&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#academic-timeline&#34;&gt;Academic timeline&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#now&#34;&gt;Now&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
 
-&lt;p&gt;Hello!
 </description>
     </item>
     
@@ -395,6 +379,15 @@ inevitably carries with it a change of form.”
     </item>
     
     <item>
+      <title>publications</title>
+      <link>https://as-bates.netlify.app/publications/</link>
+      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://as-bates.netlify.app/publications/</guid>
+      <description>title  author  journal  cites  year  author_position  impact_factor      1  Information flow, cell types and stereotypy in a full olfactory connectome  P Schlegel, AS Bates, T Stürner, SR Jagannathan, N Drummond, J Hsu, …  Elife  2  2021  2  7.616    3  The connectome of the adult Drosophila mushroom body provides insights into function  F Li, JW Lindsey, EC Marin, N Otto, M Dreher, G Dempsey, I Stark, …  Elife  36  2020  6  7.</description>
+    </item>
+    
+    <item>
       <title>timeline</title>
       <link>https://as-bates.netlify.app/timeline/</link>
       <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
@@ -409,7 +402,7 @@ inevitably carries with it a change of form.”
       <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://as-bates.netlify.app/about/</guid>
-      <description>I am a neuroscientist studying the neurobiology of animal navigation in the Wilson lab at Harvard Medical School since March 2021. The animal I study is the vinegar fly, Drosophila melanogaster. I used to build connectomics tools and analyses for synaptic-resolution data sets for this little fly in my previous life as University of Cambridge PhD student at the MRC LMB, in the group of Greg Jefferis, and still do sometimes.</description>
+      <description>total_cites  h_index  i10_index      572  12  12      “INSECTS possess a nervous system that is incredibly complex and differentiated, and whose sophistication attains ultramicroscopic levels … Certainly, the grey substance [of the brain of vertebrates] has increased considerably in mass, but when one compares its structure with that of the brain of Apidae or Libellulidae, it looks as excessively coarse and rudimentary.</description>
     </item>
     
   </channel>

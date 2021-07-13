@@ -8,31 +8,15 @@
     <language>en-uk</language>
     <lastBuildDate>Sat, 03 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://as-bates.netlify.app/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>about</title>
+      <title>hello</title>
       <link>https://as-bates.netlify.app/portfolio/about/</link>
       <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://as-bates.netlify.app/portfolio/about/</guid>
       <description>
-&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/plotly-binding/plotly.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/typedarray/typedarray.min.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/jquery/jquery.min.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/crosstalk/css/crosstalk.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/crosstalk/js/crosstalk.min.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/plotly-htmlwidgets-css/plotly-htmlwidgets.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;https://as-bates.netlify.app/www.asbates.comrmarkdown-libs/plotly-main/plotly-latest.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://as-bates.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
-&lt;div id=&#34;TOC&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#me&#34;&gt;Me&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#academic-timeline&#34;&gt;Academic timeline&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#now&#34;&gt;Now&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
 
-&lt;p&gt;Hello!
 </description>
     </item>
     

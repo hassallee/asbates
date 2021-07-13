@@ -5,4 +5,4 @@ title: Get in touch
 
 ![](https://raw.githubusercontent.com/alexanderbates/asbates/main/static/img/portfolio/funders.png)
 
-I would be happy to respond to any questions you might haved about my science, collaborations you could be interested in or opportunities you think I might like. I'm not a phish eater though.
+I would be happy to respond to any questions you might have about my science, collaborations you could be interested in or opportunities you think I might like. You can also email me directly by hiting the mail icon in the main menu bar.

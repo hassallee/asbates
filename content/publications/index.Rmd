@@ -1,0 +1,32 @@
+---
+title: "publications"
+author: "asbates"
+date: '2021-07-08'
+slug: []
+categories: []
+tags: ["publications", "authorship"]
+---
+
+```{r scholar, echo = FALSE, warning=FALSE}
+library(scholar)
+library(formattable)
+id <- "BOVTiXIAAAAJ&hl"
+publications <- scholar::get_publications(id, sortby = "year", pagesize = 100, flush = TRUE)
+publications <- subset(publications, ! journal %in% c("CHEMICAL SENSES","University of Cambridge",""))
+authorlist <- publications$author
+publications$journal[publications$journal %in% c("BioRxiv","Biorxiv","biorxiv")] <- "bioRxiv"
+publications$author_position <- author_position(authorlist, scholar::get_profile(id)$name)$Position
+publications$author_position[is.na(publications$author_position)] = 6
+publications$impact_factor <- get_impactfactor(publications$journal, max.distance = 0.05)$ImpactFactor
+publications$impact_factor[is.na(publications$impact_factor)] = 0
+articles = unique(publications$cid)
+formattable(publications, list(
+  author_position = color_bar("lightgreen", fun = "normalize"),
+  cites = color_bar("coral", fun = "normalize"),
+  impact_factor = color_bar("lightblue", fun = "normalize"),
+  number = FALSE,
+  cid = FALSE,
+  pubid = FALSE))
+```
+
+note: author_position = 6, means position >= 6
