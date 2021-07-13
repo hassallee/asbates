@@ -7,12 +7,21 @@ weight: 1
 bibliography: asb.bib
 ---
 
+> “But - I thought flies didn’t have brains?”
+~ Joan Bates, Grandmother, circa. Summer 2016
+
 <!--more-->
 
 ![](https://raw.githubusercontent.com/alexanderbates/asbates/main/static/img/about.jpg)
-
 I am a neuroscientist and small-time programmer. I work on insect brains. I am interested in how neurons wire together, and how they work together to build complex, innate behaviours. Learn [more about me here](https://asbates/about).
 
-Originally from London, once of Cambridge, currently in Boston. I like to collaborate and exchange. This website exists to help you get to know science-me and vinegar fly brains.
+```{r wordcloud, echo = FALSE, warning=FALSE}
+library(PubMedWordcloud)
+pmids1 = getPMIDs(author = "Alexander Shakeel Bates", dFrom = 2007, dTo = 2050, n = 100)
+pmids2 = getPMIDs(author = "Alexander S Bates", dFrom = 2007, dTo = 2050, n = 100)
+pmids = union(pmids1,pmids2)
+abstracts = getAbstracts(pmids)
+cleanAbs = invisible(cleanAbstracts(abstracts))
+plotWordCloud(cleanAbs)
+```
 
-“But - I thought flies didn’t have brains?” ~ Joan Bates, Grandmother, circa. Summer 2016

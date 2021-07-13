@@ -28,3 +28,5 @@ formattable(publications, list(
   cid = FALSE,
   pubid = FALSE))
 ```
+
+note: author_position = 6, means position >= 6
