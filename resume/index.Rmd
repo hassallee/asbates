@@ -21,7 +21,11 @@ knitr::opts_chunk$set(
 library(tidyverse)
 library(glue)
 library(icons)
+library(scholar)
+library(formattable)
+library(ggplot2)
 library(magrittr) # For the pipe
+library(elmr) # The fly brain
 source("cv_printing_functions.r")
 ```
 
@@ -65,6 +69,14 @@ Aside
 if(params$pdf_mode){
   cat("View this CV online with links at https://alexanderbates.github.io/resume/")
 } else {
+  plot3d(FAFB14, plotengine = "plotly")
+}
+```
+
+```{r}
+if(params$pdf_mode){
+  cat("View this CV online with links at https://alexanderbates.github.io/resume/")
+} else {
   cat("<i class='fas fa-download'></i> [Download this resume in PDF](https://alexanderbates.github.io/asbates/resume/index.pdf).")
 }
 ```
@@ -85,7 +97,10 @@ Skills {#skills}
 --------------------------------------------------------------------------------
 
 ```{r}
-print_skill_bars(CV)
+#print_skill_bars(CV)
+ggplot(data=CV$skills, aes(x=skill, y=level)) +
+  geom_bar(stat="identity", fill="#B32DB5")+
+  theme_minimal()
 ```
 
 Disclaimer {#disclaimer}
@@ -103,7 +118,16 @@ Main
 Alexander Shakeel Bates {#title}
 --------------------------------------------------------------------------------
 
-__English__: Hello! My name is Beatriz, and I'm a Doctorate Student in Environmental Sciences. <!-- , and I'm an enthusiast of the  R programming language, of open source and reproducible research. --> __Português__: Olá! Meu nome é Beatriz, e sou doutoranda em Ciência Ambiental. <!-- Sou entusiasta da linguagem de progração R, de software livre e de pesquisa reprodutível. --> __Español__: ¡Hola! Mi nombre es Beatriz, soy estudiante de doctorado en Ciencias Ambientales. <!-- Soy entusiasta del lenguaje R, de software libre y de investigación reproducible. -->
+```{r}
+print_text_block(CV, 'intro')
+```
+
+```{r profile, echo = FALSE, warning=FALSE}
+id <- "BOVTiXIAAAAJ&hl"
+author <- scholar::get_profile(id)
+df <- data.frame(total_cites = author$total_cites, h_index = author$h_index, i10_index = author$i10_index)
+formattable(df, list(total_cites = color_bar("coral", fun = "normalize"), h_index = color_bar("lightgreen", fun = "proportion"), i10_index = color_bar("lightblue", fun = "proportion")))
+```
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
