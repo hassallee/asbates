@@ -20,7 +20,7 @@ library(metathis)
 library(tidyverse)
 library(glue)
 library(magrittr) # For the pipe
-source("index_files/cv_printing_functions.r")
+source("cv_printing_functions.r")
 meta() %>%
   meta_name("github-repo" = "alexanderbates/asbates") %>% 
   meta_social(
@@ -54,7 +54,7 @@ meta() %>%
 ```{r, include=FALSE}
 # Read in all data and initialize a CV printer object
 CV <- create_CV_object(
-  data_location = "index_files/",  
+  data_location = "",  
   pdf_mode = params$pdf_mode
 )
 CV$entries_data <- CV$entries_data %>% dplyr::filter(in_resume == TRUE)
@@ -88,8 +88,7 @@ Contact {#contact}
 --------------------------------------------------------------------------------
 
 ```{r}
-CV$contact_info %>% 
-  glue_data("- <i class='fa fa-{icon}'></i> {contact}")
+CV$contact_info %>% glue_data("- <i class='fa fa-{icon}'></i> {contact}")
 ```
 
 Software {#software}
