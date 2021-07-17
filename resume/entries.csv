@@ -1,0 +1,56 @@
+﻿title,event,institution,loc,start,end,section,color,fontcolor,description_1,description_2,description_3,in_resume
+"Neuroscience BSc, UCL","Neuroscience BSc, UCL","Cambridge, UK","Cambridge, UK",01/09/2012,01/07/2015,education,#007BC3,#4D4D4D,"Neuroscience BSc, University College London",,,TRUE
+"Neuroscience PhD, University of Cambridge","Neuroscience PhD, University of Cambridge","Cambridge, UK","Cambridge, UK",01/09/2015,30/09/2020,education,#FC6882,#4D4D4D,"PHD Student, MRC LMB, Jefferis Lab",,,TRUE
+Cambridge,Cambridge,"Cambridge, UK","Cambridge, UK",01/10/2020,present,research_projects,#5CA700,#4D4D4D,"Visiting Scientist at the Department of Zoology, Drosophila Connectomics Group",,,TRUE
+HMS,HMS,"Cambridge, UK","Cambridge, UK",01/10/2020,present,research_projects,#D72000,#4D4D4D,"Postdoctoral Fellow, Wilson Lab",,,TRUE
+EMBO fellow,EMBO fellow,"Cambridge, UK","Cambridge, UK",01/04/2021,present,awards,#1BB6AF,#4D4D4D,Accepted,,,TRUE
+Human Frontiers Scholarship,Human Frontiers Scholarship,"Cambridge, UK","Cambridge, UK",01/05/2021,01/05/2021,awards,#1BB6AF,#4D4D4D,Gratefully declined,,,TRUE
+LSRF,LSRF,"Cambridge, UK","Cambridge, UK",01/06/2021,01/06/2021,awards,#1BB6AF,#4D4D4D,Gratefully declined,,,TRUE
+Herchel Smith Scholarship,Herchel Smith Scholarship,"Cambridge, UK","Cambridge, UK",01/08/2015,30/09/2019,awards,#1BB6AF,#4D4D4D,PhD scholarship,,,TRUE
+Boehringer Ingelheim Scholarship,Boehringer Ingelheim Scholarship,"Cambridge, UK","Cambridge, UK",01/08/2016,01/08/2018,awards,#1BB6AF,#4D4D4D,PhD scholarship,,,TRUE
+Honorary Vice Chancellor's Award,Honorary Vice Chancellor's Award,"Cambridge, UK","Cambridge, UK",01/08/2015,01/08/2015,awards,#1BB6AF,#4D4D4D,A University of Cambriodge Non-stipendary Award,,,TRUE
+Burnstock Prize,Burnstock Prize,"Cambridge, UK","Cambridge, UK",01/07/2013,01/07/2013,awards,#1BB6AF,#4D4D4D,"Highest grade in Neuroscience BSc course, 1st year",,,TRUE
+Burnstock Prize,Burnstock Prize,"Cambridge, UK","Cambridge, UK",01/07/2014,01/07/2014,awards,#1BB6AF,#4D4D4D,"Highest grade in Neuroscience BSc course, 2nd year",,,TRUE
+Burnstock Prize,Burnstock Prize,"Cambridge, UK","Cambridge, UK",01/07/2015,01/07/2015,awards,#1BB6AF,#4D4D4D,"Highest grade in Neuroscience BSc course, 3rd year",,,TRUE
+Max Perutz Prize,Max Perutz Prize,"Cambridge, UK","Cambridge, UK",01/10/2020,01/10/2020,awards,#1BB6AF,#4D4D4D,A best thesis at the MRC LMB,,,TRUE
+BNA Postgraduate Prize,BNA Postgraduate Prize,"Cambridge, UK","Cambridge, UK",01/12/2020,01/12/2020,awards,#1BB6AF,#4D4D4D,British Neuroscience Association Postgraduate Prize,,,TRUE
+Dean's list,Dean's list,"Cambridge, UK","Cambridge, UK",01/07/2013,01/07/2013,awards,#1BB6AF,#4D4D4D,"Dean’s list for the Faculty of Life Sciences, awarded based on undergraduate grades",,,TRUE
+Dean's list,Dean's list,"Cambridge, UK","Cambridge, UK",01/07/2014,01/07/2014,awards,#1BB6AF,#4D4D4D,"Dean’s list for the Faculty of Life Sciences, awarded based on undergraduate grades",,,TRUE
+Rob Clarke Award,Rob Clarke Award,"Cambridge, UK","Cambridge, UK",01/09/2015,01/09/2015,awards,#1BB6AF,#4D4D4D,"Rob Clarke Award from the Society of Physiology, awarded for undergraduate projects",,,TRUE
+Brains and Roses,Brains and Roses,"Cambridge, UK","Cambridge, UK",01/06/2016,01/06/2016,meetings,#D5A848,#4D4D4D,talk,,,TRUE
+BIF meeting,BIF meeting,"Cambridge, UK","Cambridge, UK",01/06/2017,01/06/2017,meetings,#D5A848,#4D4D4D,"Boehringer Ingelheim Fonds Hirschegg meeting, talk",,,TRUE
+BIF meeting,BIF meeting,"Cambridge, UK","Cambridge, UK",01/06/2018,01/06/2018,meetings,#D5A848,#4D4D4D,"Boehringer Ingelheim Fonds Hirschegg meeting, talk",,,TRUE
+MPI Connectomics meeting,MPI Connectomics meeting,"Cambridge, UK","Cambridge, UK",01/10/2017,01/10/2017,meetings,#D5A848,#4D4D4D,talk,,,TRUE
+ECRO meeting,ECRO meeting,"Cambridge, UK","Cambridge, UK",11/09/2017,11/09/2017,meetings,#D5A848,#4D4D4D,talk,,,TRUE
+ECRO meeting,ECRO meeting,"Cambridge, UK","Cambridge, UK",11/09/2019,11/09/2019,meetings,#D5A848,#4D4D4D,long talk,,,TRUE
+Paris Spring School in Neuroscience Techniques,Paris Spring School in Neuroscience Techniques,"Cambridge, UK","Cambridge, UK",13/06/2018,28/06/2018,experience,#D5A848,#4D4D4D,"Paris Spring school, in Optical Imaging and Electrophysiological Recording in Neuroscience, training",,,TRUE
+Dolan and Belliart-Guérin et al. 2016,Dolan and Belliart-Guérin et al. 2016,"Cambridge, UK","Cambridge, UK",01/01/2018,01/01/2018,publications,#8FDA04,#4D4D4D,Communication from Learned to Innate Olfactory Processing Centers Is Required for Memory Retrieval in Drosophila,,,TRUE
+Bates et al. 2018,Bates et al. 2018,"Cambridge, UK","Cambridge, UK",01/10/2018,01/10/2018,publications,#EE4244,#4D4D4D,Neuronal Cell Types in the Fly: Single-Cell Anatomy Meets Single-Cell Genomics,,,TRUE
+Bates and Manton et al. 2020,Bates and Manton et al. 2020,"Cambridge, UK","Cambridge, UK",09/04/2020,09/04/2020,publications,#EE4244,#4D4D4D,"The Natverse, a Versatile Toolbox for Combining and Analysing Neuroanatomical Data",,,TRUE
+Bates and Schlegel et al. 2020,Bates and Schlegel et al. 2020,"Cambridge, UK","Cambridge, UK",29/06/2020,29/06/2020,publications,#EE4244,#4D4D4D,Complete Connectomic Reconstruction of Olfactory Projection Neurons in the Fly Brain,,,TRUE
+Huoviala et al. 2018,Huoviala et al. 2018,"Cambridge, UK","Cambridge, UK",11/06/2018,11/06/2018,publications,#8FDA04,#4D4D4D,Neural circuit basis of aversive odour processing in Drosophila from sensory input to descending output,,,TRUE
+Li et al. 2018,Li et al. 2018,"Cambridge, UK","Cambridge, UK",24/05/2019,24/05/2019,publications,#8FDA04,#4D4D4D,Automated Reconstruction of a Serial-Section EM Drosophila Brain with Flood-Filling Networks and Local Realignment,,,TRUE
+Frechter et al. 2019,Frechter et al. 2019,"Cambridge, UK","Cambridge, UK",21/05/2019,21/05/2019,publications,#8FDA04,#4D4D4D,Functional and anatomical specificity in a higher olfactory centre,,,TRUE
+Dolan et al. 2019,Dolan et al. 2019,"Cambridge, UK","Cambridge, UK",21/05/2019,21/05/2019,publications,#8FDA04,#4D4D4D,"Neurogenetic dissection of the Drosophila lateral horn reveals major outputs, diverse behavioural functions, and interactions with the mushroom body",,,TRUE
+Otto et al. 2020,Otto et al. 2020,"Cambridge, UK","Cambridge, UK",05/06/2020,05/06/2020,publications,#8FDA04,#4D4D4D,Input Connectivity Reveals Additional Heterogeneity of Dopaminergic Reinforcement in Drosophila,,,TRUE
+Marin et al. 2020,Marin et al. 2020,"Cambridge, UK","Cambridge, UK",01/07/2020,01/07/2020,publications,#8FDA04,#4D4D4D,"Connectomics Analysis Reveals First-, Second-, and Third-Order Thermosensory and Hygrosensory Neurons in the Adult Drosophila Brain",,,TRUE
+Eckstein et al. 2020,Eckstein et al. 2020,"Cambridge, UK","Cambridge, UK",06/07/2020,06/07/2020,publications,#8FDA04,#4D4D4D,Neurotransmitter Classification from Electron Microscopy Images at Synaptic Sites in Drosophila ,,,TRUE
+Scheffer et al. 2020,Scheffer et al. 2020,"Cambridge, UK","Cambridge, UK",03/09/2020,03/09/2020,publications,#8FDA04,#4D4D4D,A connectome and analysis of the adult Drosophila central brain,,,TRUE
+Cachero et al. 2020,Cachero et al. 2020,"Cambridge, UK","Cambridge, UK",02/11/2020,02/11/2020,publications,#8FDA04,#4D4D4D,"BAcTrace, a tool for retrograde tracing of neuronal circuits in Drosophila",,,TRUE
+Li et al. 2020,Li et al. 2020,"Cambridge, UK","Cambridge, UK",14/12/2020,14/12/2020,publications,#8FDA04,#4D4D4D,The connectome of the adult Drosophila mushroom body provides insights into function,,,TRUE
+Schlegel and Bates et al. 2021,Schlegel and Bates et al. 2021,"Cambridge, UK","Cambridge, UK",01/06/2021,01/06/2021,publications,#EE4244,#4D4D4D,"Information flow, cell types and stereotypy in a full olfactory connectome ",,,TRUE
+Janelia Research Campus,Janelia Research Campus,"Cambridge, UK","Cambridge, UK",01/02/2019,01/03/2019,experience,#FBBB48,#4D4D4D,"Visiting Scholar, Janelia Research Campus, Dr. Gerry Rubin’s Group ",,,TRUE
+Janelia Research Campus,Janelia Research Campus,"Cambridge, UK","Cambridge, UK",01/02/2016,01/05/2016,experience,#FBBB48,#4D4D4D,"Visiting Scholar, Janelia Research Campus, Dr. Albert Cardona’s Group",,,TRUE
+University of Queensland,University of Queensland,"Cambridge, UK","Cambridge, UK",06/01/2015,01/08/2015,experience,#FBBB48,#4D4D4D,"University of Queensland Winter Scholarship, Dr. Ethan Scott’s Group Summer ",,,TRUE
+Amgen Shcolarship,Amgen Shcolarship,"Cambridge, UK","Cambridge, UK",06/01/2014,01/08/2014,experience,#FBBB48,#4D4D4D,"Amgen Scholarship, Dr. Landgraf’s Laboratory, Cambridge University",,,TRUE
+UCL iGEM,UCL iGEM,"Cambridge, UK","Cambridge, UK",06/01/2013,01/08/2013,experience,#FBBB48,#4D4D4D,UCL iGEM 2013 Team – Summer 2013,,,TRUE
+UCL iGEM Advisor,UCL iGEM Advisor,"Cambridge, UK","Cambridge, UK",06/01/2014,01/08/2014,experience,#FBBB48,#4D4D4D,UCL iGEM 2014 Team – Summer 2014,,,TRUE
+Cancer Research UK,Cancer Research UK,"Cambridge, UK","Cambridge, UK",06/01/2013,01/08/2013,experience,#FBBB48,#4D4D4D,"Student Placement, Cancer Research UK (CRUK), Dr. Tammy Cheng ",,,TRUE
+President of BlueSci,President of BlueSci,"Cambridge, UK","Cambridge, UK",01/01/2016,01/10/2019,other,#C70E7B,#4D4D4D,"President of BlueSci, the University of Cambridge’s science media society",,,TRUE
+President of the UCLU Writer's Society,President of the UCLU Writer's Society,"Cambridge, UK","Cambridge, UK",01/10/2014,01/10/2015,other,#C70E7B,#4D4D4D,President of the UCLU Writers’ Society ,,,TRUE
+"Science Editor, Pi Magazine","Science Editor, Pi Magazine","Cambridge, UK","Cambridge, UK",01/10/2014,01/10/2015,other,#C70E7B,#4D4D4D,Science Editor at Pi Media Magazine,,,TRUE
+Symposium organiser,Symposium organiser,"Cambridge, UK","Cambridge, UK",01/05/2016,01/07/2016,other,#C70E7B,#4D4D4D,LMB graduate symposium organiser,,,TRUE
+Symposium organiser,Symposium organiser,"Cambridge, UK","Cambridge, UK",01/05/2017,01/07/2017,other,#C70E7B,#4D4D4D,Lead LMB graduate symposium organiser,,,TRUE
+Mentoring,Mentoring,"Cambridge, UK","Cambridge, UK",01/05/2017,01/07/2017,experience,#FBBB48,#4D4D4D,Mentored summer student,,,TRUE
+Mentoring,Mentoring,"Cambridge, UK","Cambridge, UK",01/05/2018,01/07/2018,experience,#FBBB48,#4D4D4D,Mentored summer student,,,TRUE
+Mentoring,Mentoring,"Cambridge, UK","Cambridge, UK",01/09/2017,01/05/2018,experience,#FBBB48,#4D4D4D,Mentored undergruate project,,,TRUE

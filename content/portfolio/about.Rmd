@@ -22,6 +22,7 @@ pmids = union(pmids1,pmids2)
 abstracts = getAbstracts(pmids)
 cleanAbs = invisible(cleanAbstracts(abstracts))
 cleanAbs = subset(cleanAbs, freq > 1)
+cleanAbs$word = gsub('monospace','',cleanAbs$word)
 wordcloud2(cleanAbs, size = 1.5, color = 'random-light', backgroundColor="white")
 ```
 
