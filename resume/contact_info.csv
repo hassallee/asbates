@@ -1,7 +1,8 @@
 ﻿loc,icon,contact
 email,envelope,Alexander_Bates@hms.harvard.edu
-twitter,twitter,as_bates
-github,github,github.com/alexanderbates
+twitter,twitter,[as_bates](https://twitter.com/as_bates?lang=en)
+github,github,[alexanderbates](github.com/alexanderbates)
 website,link,asbates.com
-linkedin,linkedin,linkedin.com/in/alex-bates-22a265a7/
-ewspaper-o,scholar,scholar.google.com/citations?user=BOVTiXIAAAAJ&hl=en
+linkedin,linkedin,[profile](linkedin.com/in/alex-bates-22a265a7/)
+scholar,user-circle,[google scholar](https://scholar.google.com/citations?user=BOVTiXIAAAAJ&hl=en)
+orcid,eercast,[orcid](https://orcid.org/0000-0002-1195-0445)
