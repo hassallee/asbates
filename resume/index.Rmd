@@ -11,33 +11,18 @@ output:
     self_contained: true
 #knit: pagedown::chrome_print      
 ---
-```{r metathis, echo=FALSE}
+```{r metathis, echo = FALSE, message = FALSE, warning = FALSE}
 knitr::opts_chunk$set(
   results='asis',
-  echo = FALSE
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE
 )
-library(metathis)
 library(tidyverse)
 library(glue)
+library(icons)
 library(magrittr) # For the pipe
 source("cv_printing_functions.r")
-meta() %>%
-  meta_name("github-repo" = "alexanderbates/asbates") %>% 
-  meta_social(
-    title = "Alexander Shakeel Bates",
-    description = paste(
-      "CV made with the packages RMarkdown, pagedown, datadrivencv."
-    ),
-    url = "https://alexanderbates.github.io/asbates/resume/index.html",
-    image = "https://alexanderbates.github.io/asbates/resume/img/share-card.png",
-    image_alt = paste(
-      "Alexander Shakeel Bates"
-    ),
-    og_type = "website",
-    og_author = "Alexander Bates",
-    twitter_card_type = "summary_large_image",
-    twitter_creator = "@as_bates"
-  )
 ```
 
 <!-- inicio academic icons -->
