@@ -75,7 +75,7 @@ cat("![logo](asb_logo_round.png)")
 if(params$pdf_mode){
   cat("View this resume online with links at asbates.com/CV")
 } else {
-  cat("<i class='fas fa-download'></i> [download this resume](https://alexanderbates.github.io/asbates/resume/index.pdf)")
+  cat("<i class='fas fa-download'></i> [download this resume](https://github.com/alexanderbates/asbates/raw/main/resume/index.pdf)")
 }
 ```
 
