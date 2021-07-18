@@ -35,7 +35,7 @@ sup {
 
 /* Customize some of the sizing variables */
 :root {
-  --sidebar-width: 12rem; /* Shrink sidebar width  */
+  --sidebar-width: 10rem; /* Shrink sidebar width  */
   --sidebar-background-color: #f7fbff; /* Make sidebar blue */
   --sidebar-horizontal-padding: 0.01in; /* Reduce sidebar padding */
   --decorator-outer-dim: 10px; /* Make position deliniating circles larger */
@@ -94,7 +94,7 @@ sup {
 }
 
 .skill-bar {
-  color: white;
+  color: black;
   padding: 0.1rem 0.25rem;
   margin-top: 3px;
   position: relative;
@@ -116,8 +116,8 @@ sup {
 
 /* Add styles for little cards  */
 .info-card{
-  width: 220px;    
-  float: left;    
+  width: 220px;
+  float: left;
   padding: 0.5rem;
   margin: 0.5rem;
   box-shadow: 1px 1px 4px black;

@@ -1,6 +1,6 @@
 ---
 title: "Alexander Bates' CV"
-author: Beatriz Milz
+author: Alexander Bates
 date: "`r Sys.Date()`"
 params:
   pdf_mode:
@@ -9,15 +9,16 @@ output:
   pagedown::html_resume:
     css: [ 'dd_cv.css', 'custom.css','resume']
     self_contained: true
-#knit: pagedown::chrome_print      
+# knit: pagedown::chrome_print      
 ---
-```{r metathis, echo = FALSE, message = FALSE, warning = FALSE}
+```{r startup, echo = FALSE, message = FALSE, warning = FALSE}
 knitr::opts_chunk$set(
   results='asis',
   echo = FALSE,
   warning = FALSE,
   message = FALSE
 )
+library(pagedown)
 library(tidyverse)
 library(glue)
 library(icons)
@@ -25,7 +26,9 @@ library(scholar)
 library(formattable)
 library(ggplot2)
 library(magrittr) # For the pipe
-library(elmr) # The fly brain
+library(plotly)
+library(extrafont)
+library(extrafontdb)
 source("cv_printing_functions.r")
 ```
 
@@ -36,8 +39,6 @@ source("cv_printing_functions.r")
  
 <!-- inicio font awesome -->
 <script src="https://kit.fontawesome.com/1f72d6921a.js" crossorigin="anonymous"></script>
-
- 
 <!-- final font awesome -->
 
 ```{r, include=FALSE}
@@ -65,52 +66,40 @@ if(params$pdf_mode) {
 Aside
 ================================================================================
 
-```{r}
+```{r logo}
+cat("![logo](asb_logo_round.png)")
+# Add plotly brain??
+```
+
+```{r pdf_mode}
 if(params$pdf_mode){
-  cat("View this CV online with links at https://alexanderbates.github.io/resume/")
+  cat("View this resume online with links at asbates.com/CV")
 } else {
-  plot3d(FAFB14, plotengine = "plotly")
+  cat("<i class='fas fa-download'></i> [download this resume](https://alexanderbates.github.io/asbates/resume/index.pdf)")
 }
 ```
 
-```{r}
-if(params$pdf_mode){
-  cat("View this CV online with links at https://alexanderbates.github.io/resume/")
-} else {
-  cat("<i class='fas fa-download'></i> [Download this resume in PDF](https://alexanderbates.github.io/asbates/resume/index.pdf).")
-}
-```
-
-Contact {#contact}
+Media {#Media}
 --------------------------------------------------------------------------------
 
-```{r}
+```{r contact_info}
 CV$contact_info %>% glue_data("- <i class='fa fa-{icon}'></i> {contact}")
 ```
 
 Software {#software}
 --------------------------------------------------------------------------------
 
-<i class="fas fa-box-open"></i> [Package {natverse}](https://natverse.github.io/natverse/) - Co-Author. 
+<i class="fas fa-box-open"></i> [natverse](https://natverse.org/) - a toolscape for neuroinformatics, co-author
 
-Skills {#skills}
---------------------------------------------------------------------------------
+<i class="fas fa-box-open"></i> [neuromorphr](https://natverse.github.io/neuromorphr/) - author
 
-```{r}
-#print_skill_bars(CV)
-ggplot(data=CV$skills, aes(x=skill, y=level)) +
-  geom_bar(stat="identity", fill="#B32DB5")+
-  theme_minimal()
-```
+<i class="fas fa-box-open"></i> [neuronbridger](https://natverse.github.io/neuronbridger/) - author
 
-Disclaimer {#disclaimer}
---------------------------------------------------------------------------------
+<i class="fas fa-box-open"></i> [hemibrainr](https://natverse.github.io/hemibrainr/) - author
 
-Made with the R package [**pagedown**](https://github.com/rstudio/pagedown) and [**datadrivencv**](http://nickstrayer.me/datadrivencv/index.html).
+<i class="fas fa-box-open"></i> [mouselightr](https://natverse.github.io/mouselightr/) - author
 
-Code available on <i class="fa fa-github"></i> [GitHub](https://github.com/alexanderbates/asbates). 
-
-Last updated on `r Sys.Date()`. 
+<i class="fas fa-box-open"></i> [insectbrainr](https://natverse.github.io/insectbrainr/) - author
 
 Main
 ================================================================================
@@ -118,15 +107,30 @@ Main
 Alexander Shakeel Bates {#title}
 --------------------------------------------------------------------------------
 
-```{r}
+```{r intro}
 print_text_block(CV, 'intro')
 ```
 
-```{r profile, echo = FALSE, warning=FALSE}
+```{r profile, fig.align = "center"}
 id <- "BOVTiXIAAAAJ&hl"
 author <- scholar::get_profile(id)
 df <- data.frame(total_cites = author$total_cites, h_index = author$h_index, i10_index = author$i10_index)
 formattable(df, list(total_cites = color_bar("coral", fun = "normalize"), h_index = color_bar("lightgreen", fun = "proportion"), i10_index = color_bar("lightblue", fun = "proportion")))
+```
+
+Professional Research {data-icon=microscope}
+--------------------------------------------------------------------------------
+
+```{r research}
+CV %<>% print_section('research_projects')
+```
+
+
+Grants {data-icon=connectdevelop}
+--------------------------------------------------------------------------------
+
+```{r grants}
+CV %<>% print_section('grants')
 ```
 
 Education {data-icon=graduation-cap data-concise=true}
@@ -137,84 +141,156 @@ CV %<>% print_section('education')
 ```
 
 
-Research Projects {data-icon=laptop}
---------------------------------------------------------------------------------
+::: aside
 
-```{r}
-CV %<>% print_section('research_projects')
+**SKILLS**
+
+```{r skill_bar}
+# print_skill_bars(CV)
+# p <-ggplot(data=CV$skills, aes(x=skill, y=level)) +
+#   geom_bar(stat="identity", fill="#4D4D4D")+
+#   coord_flip() + 
+#   theme(
+#     axis.title.y = element_blank(),
+#     axis.title.x = element_blank(),
+#     axis.text.y = element_text(size=20, face="bold", colour = "#4D4D4D", family = "sans"),
+#     axis.text.x=element_blank(),
+#     axis.ticks.y=element_blank(),
+#     axis.ticks.x=element_blank(),
+#     panel.background = element_rect(fill = "transparent"), # bg of the panel
+#     plot.background = element_rect(fill = "transparent", color = NA), # bg of the plot
+#     panel.grid.major = element_blank(), # get rid of major grid
+#     panel.grid.minor = element_blank(), # get rid of minor grid
+#     legend.background = element_rect(fill = "transparent"), # get rid of legend bg
+#     legend.box.background = element_rect(fill = "transparent") # get rid of legend panel bg
+#   )
+# ggsave(p, filename = "skills.png",  bg = "transparent", units = "cm", height = 25, width = 15)
+# cat("![skills](skills.png)")
 ```
 
-Teaching Experience {data-icon=chalkboard-teacher}
+- <i class="fab fa-r-project"></i> `R`
+
+- <i class="fab fa-python"></i> `python`
+
+- <i class="fab fa-function"></i> `matlab`
+
+- <i class="fas fa-code-branch"></i> `Git`
+
+- <i class="fab fa-github"></i> `GitHub`
+
+- <i class="fab fa-markdown"></i> `Markdown`
+
+- <i class="fas fa-image"></i> `Illustrator`
+
+- <i class="fas fa-file"></i> `InDesign`
+
+- <i class="fas fa-user-edit"></i> `text editing`
+
+- <i class="fas fa-chalkboard-teacher"></i> `communication`
+
+- <i class="fas fa-pen-fancy"></i> `journalistic writing`
+
+- <i class="fas fa-pen"></i> `creative writing`
+
+:::
+
+Awards {data-icon=award}
 --------------------------------------------------------------------------------
 
-```{r}
+```{r awards}
 CV %<>% print_section('awards')
 ```
 
+::: aside
 
-Scientific Journals {data-icon=book }
+**REFEREES** 
+
+- <i class="fas fa-robot"></i> `PhD Supervisor: Dr. Gregory Jefferis, MRC Laboratory of Molecular Biology, Cambridge, jefferis@mrc-lmb.cam.ac.uk`
+
+- <i class="fas fa-user-secret"></i> `Current Supervisor: Prof. Rachel Wilson, Harvard Medical School, Rachel_Wilson@hms.harvard.edu`
+
+- <i class="fas fa-user-graduate"></i> `BSc Tutor at UCL: Dr. Marco Beato, UCL Neuroscience, Physiology and Pharmacology, m.beato@ucl.ac.uk`
+
+- <i class="fas fa-user-astronaut"></i> `Supervisee: Serene Dhawan, The Francis Crick Institute, serenedhawan@gmail.com`
+
+:::
+
+Leadership {data-icon=flag}
 --------------------------------------------------------------------------------
 
-```{r}
-CV %<>% print_section('publications')
+```{r leadership}
+CV %<>% print_section('leadership_experience')
 ```
 
-Projects {data-icon=share-alt}
+Publications {data-icon=book}
 --------------------------------------------------------------------------------
 
 ::: aside
 
-I'm an active participant in the local R community: I'm a co-organizer of R-Ladies São Paulo, and I have taught in several meetups and workshops, 
-in the chapters São Paulo, Niterói, Curitiba and Goiânia.
-
-
-I'm a co-organizer of [satRday São Paulo](https://saopaulo2019.satrdays.org/), [LatinR](https://latin-r.com/)  and [useR! 2021](https://user2021.r-project.org/). 
-
-### Languages
-
-**English:** native
-
-**Spanish:** Beginner
-
-### GRANTS
-
-- <i class="far fa-star"></i> [LatinR 2019](https://latin-r.com/) - Travel and Conference.
-
-- <i class="far fa-star"></i> [useR! 2019](https://user2019.r-project.org/). Diversity Scholarship - Travel and Conference.
-
-- <i class="far fa-star"></i> [FAPESP Doctorate Scholarship](https://bv.fapesp.br/en/bolsas/185176/active-transparency-in-the-management-of-water-resources-in-the-sao-paulo-macrometropolis-using-the/)
-
-
-### CONTACT
-
-- <i class="fa fa-envelope"></i> beatriz.milz@usp.br
-
-- <i class="fa fa-twitter"></i> [Twitter: `@`BeaMilz](https://twitter.com/BeaMilz)
-
-- <i class="fa fa-github"></i> [GitHub: `@`beatrizmilz](https://github.com/beatrizmilz)
-
-- <i class="fa fa-external-link-alt"></i> <a href='http://lattes.cnpq.br/5150665880581477'> Lattes </a> 
-
-- <i class="fab fa-orcid"></i> <a href='https://orcid.org/0000-0002-3064-4486'> Orcid </a>  
-
-- <i class="fa fa-home"></i> [beatrizmilz.com](https://beatrizmilz.com)
-
-- <i class="fab fa-discourse"></i> [Discourse](https://discourse.curso-r.com/u/beatrizmilz/summary)
+```{r pubs}
+print_text_block(CV, 'publications')
+```
 
 :::
 
-```{r}
-CV %<>% print_section('experience')
+```{r publications}
+#CV %<>% print_section('publications')
+publications <- scholar::get_publications(id, sortby = "year", pagesize = 100, flush = TRUE)
+publications <- subset(publications, ! journal %in% c("CHEMICAL SENSES","University of Cambridge",""))
+authorlist <- publications$author
+publications$journal[publications$journal %in% c("BioRxiv","Biorxiv","biorxiv")] <- "bioRxiv"
+publications$position <- author_position(authorlist, scholar::get_profile(id)$name)$Position
+publications$position[is.na(publications$position)] = 6
+publications$IF <- get_impactfactor(publications$journal, max.distance = 0.05)$ImpactFactor
+publications$IF[is.na(publications$IF)] = 0
+publications$position[publications$title=='Information flow, cell types and stereotypy in a full olfactory connectome'] = 1
+articles = unique(publications$cid)
+formattable(publications, list(
+  position = color_bar("lightgreen", fun = "normalize"),
+  cites = color_bar("coral", fun = "normalize"),
+  IF = color_bar("lightblue", fun = "normalize"),
+  number = FALSE,
+  cid = FALSE,
+  pubid = FALSE))
 ```
 
-Selected Oral Communications {data-icon=chalkboard-teacher}
+Selected Talks {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
-```{r}
+```{r meetings}
 CV %<>% print_section('meetings')
 ```
 
-:::aside
+Selected Posters {data-icon=chart-area}
+--------------------------------------------------------------------------------
 
-<i class="fas fa-download"></i> [Download](https://beatrizmilz.github.io/resume/index.pdf)
+```{r posters}
+CV %<>% print_section('posters')
+```
+
+Other {data-icon=share-alt}
+--------------------------------------------------------------------------------
+
+```{r other}
+CV %<>% print_section('experience')
+```
+
+::: aside
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+Made with the R package [**pagedown**](https://github.com/rstudio/pagedown) and [**datadrivencv**](http://nickstrayer.me/datadrivencv/index.html).
+
+Code available on <i class="fa fa-github"></i> [GitHub](https://github.com/alexanderbates/asbates). 
+
+Last updated on `r Sys.Date()`. 
+
 :::
+
+```{r links}
+if(params$pdf_mode) {
+  CV %<>% print_links()
+}
+```
+

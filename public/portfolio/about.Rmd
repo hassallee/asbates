@@ -1,8 +1,8 @@
 ---
-title: hello
+title: "hello"
 date: '2021-07-03'
 image: img/about.jpg
-showonlyimage: true
+showonlyimage: yes
 weight: 1
 bibliography: asb.bib
 ---
@@ -12,16 +12,20 @@ bibliography: asb.bib
 
 <!--more-->
 
-![](https://raw.githubusercontent.com/alexanderbates/asbates/main/static/img/about.jpg)
-I am a neuroscientist and small-time programmer. I work on insect brains. I am interested in how neurons wire together, and how they work together to build complex, innate behaviours. Learn [more about me here](https://asbates/about).
 
-```{r wordcloud, echo = FALSE, warning=FALSE}
+```{r wordcloud, echo = FALSE, warning=FALSE, results='hide'}
 library(PubMedWordcloud)
+library(wordcloud2)
 pmids1 = getPMIDs(author = "Alexander Shakeel Bates", dFrom = 2007, dTo = 2050, n = 100)
 pmids2 = getPMIDs(author = "Alexander S Bates", dFrom = 2007, dTo = 2050, n = 100)
 pmids = union(pmids1,pmids2)
 abstracts = getAbstracts(pmids)
 cleanAbs = invisible(cleanAbstracts(abstracts))
-plotWordCloud(cleanAbs)
+cleanAbs = subset(cleanAbs, freq > 1)
+cleanAbs$word = gsub('monospace','',cleanAbs$word)
+wordcloud2(cleanAbs, size = 1.5, color = 'random-light', backgroundColor="white")
 ```
 
+Maybe a quick way to view my interests. Here is a word cloud from the abstracts of my published work. 
+
+Learn [more about me here](https://asbates/about).
