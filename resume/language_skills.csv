@@ -1,9 +1,14 @@
-﻿skill,level
-R,4.5
-python,2.5
-MATLAB,3.5
-git,3.5
-speaking,5
-presentation,5
-editing,5
-imaging,3
+﻿skill,level,icon
+R,4.5,fab fa-r-project
+python,2.5,fab fa-python
+MATLAB,3.5,fas fa-square-root-alt
+github,3.5,fab fa-github
+git,3.5,fas fa-code-branch
+markdown,3,fab fa-markdown
+Illustrator,4,fas fa-image
+InDesign,4,fas fa-file
+communication,5,fas fa-chalkboard-teacher
+text editing,5,fas fa-user-edit
+journalistic writing,4,fas fa-pen-fancy
+creative writing,4,fas fa-pen
+open access,4,ai ai-open-access

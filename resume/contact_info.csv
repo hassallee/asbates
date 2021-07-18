@@ -1,9 +1,9 @@
 ﻿loc,icon,contact
-email,envelope,[email](Alexander_Bates@hms.harvard.edu)
-twitter,twitter,[as_bates](https://twitter.com/as_bates?lang=en)
-github,github,[alexanderbates](github.com/alexanderbates)
-website,link,[asbates.com](www.asbates.com)
-linkedin,linkedin,[linkedIn](linkedin.com/in/alex-bates-22a265a7/)
-scholar,user-circle,[google scholar](https://scholar.google.com/citations?user=BOVTiXIAAAAJ&hl=en)
-orcid,user-o,[orcid](https://orcid.org/0000-0002-1195-0445)
-researchgate,grav,[researchgate](https://www.researchgate.net/profile/Alexander-Bates)
+email,fa fa-envelope,Alexander_Bates@hms.harvard.edu
+twitter,fa fa-twitter,[as_bates](https://twitter.com/as_bates?lang=en)
+github,fa fa-github,[alexanderbates](github.com/alexanderbates)
+website,fa fa-link,[asbates.com](www.asbates.com)
+linkedin,fa fa-linkedin,[linkedIn](linkedin.com/in/alex-bates-22a265a7/)
+scholar,ai ai-google-scholar,[google scholar](https://scholar.google.com/citations?user=BOVTiXIAAAAJ&hl=en)
+orcid,ai ai-orcid,[0000-0002-1195-0445](https://orcid.org/0000-0002-1195-0445)
+researchgate,ai ai-researchgate,[researchgate](https://www.researchgate.net/profile/Alexander-Bates)

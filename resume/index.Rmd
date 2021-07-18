@@ -9,7 +9,7 @@ output:
   pagedown::html_resume:
     css: [ 'dd_cv.css', 'custom.css','resume']
     self_contained: true
-knit: pagedown::chrome_print      
+# knit: pagedown::chrome_print      
 ---
 ```{r startup, echo = FALSE, message = FALSE, warning = FALSE}
 knitr::opts_chunk$set(
@@ -83,23 +83,25 @@ Media {#Media}
 --------------------------------------------------------------------------------
 
 ```{r contact_info}
-CV$contact_info %>% glue_data("- <i class='fa fa-{icon}'></i> {contact}")
+CV$contact_info %>% glue_data("- <i class='{icon}'></i> {contact}")
 ```
 
 Software {#software}
 --------------------------------------------------------------------------------
 
-<i class="fas fa-box-open"></i> [natverse](https://natverse.org/) - a toolscape for neuroinformatics, co-author
+<i class="fas fa-toolbox"></i> [natverse](https://natverse.org/) - a toolscape for neuroinformatics, co-author
 
-<i class="fas fa-box-open"></i> [neuromorphr](https://natverse.github.io/neuromorphr/) - author
+<i class="fas fa-tools"></i> [neuromorphr](https://natverse.github.io/neuromorphr/) - author
 
-<i class="fas fa-box-open"></i> [neuronbridger](https://natverse.github.io/neuronbridger/) - author
+<i class="fas fa-tools"></i> [neuronbridger](https://natverse.github.io/neuronbridger/) - author
 
-<i class="fas fa-box-open"></i> [hemibrainr](https://natverse.github.io/hemibrainr/) - author
+<i class="fas fa-tools"></i> [neuprintr](https://natverse.github.io/neuprintr/) - author
 
-<i class="fas fa-box-open"></i> [mouselightr](https://natverse.github.io/mouselightr/) - author
+<i class="fas fa-tools"></i> [hemibrainr](https://natverse.github.io/hemibrainr/) - author
 
-<i class="fas fa-box-open"></i> [insectbrainr](https://natverse.github.io/insectbrainr/) - author
+<i class="fas fa-tools"></i> [mouselightr](https://natverse.github.io/mouselightr/) - author
+
+<i class="fas fa-tools"></i> [insectbrainr](https://natverse.github.io/insectbrainr/) - author
 
 Main
 ================================================================================
@@ -118,7 +120,7 @@ df <- data.frame(total_cites = author$total_cites, h_index = author$h_index, i10
 formattable(df, list(total_cites = color_bar("coral", fun = "normalize"), h_index = color_bar("lightgreen", fun = "proportion"), i10_index = color_bar("lightblue", fun = "proportion")))
 ```
 
-Professional Research {data-icon=microscope}
+Professional Research {data-icon=microscope data-concise=true}
 --------------------------------------------------------------------------------
 
 ```{r research}
@@ -126,7 +128,7 @@ CV %<>% print_section('research_projects')
 ```
 
 
-Grants {data-icon=connectdevelop}
+Grants {data-icon=connectdevelop data-concise=true}
 --------------------------------------------------------------------------------
 
 ```{r grants}
@@ -166,52 +168,8 @@ CV %<>% print_section('education')
 #   )
 # ggsave(p, filename = "skills.png",  bg = "transparent", units = "cm", height = 25, width = 15)
 # cat("![skills](skills.png)")
+CV$skills %>% glue_data("- <i class='{icon}'></i> {skill}")
 ```
-
-- <i class="fab fa-r-project"></i> `R`
-
-- <i class="fab fa-python"></i> `python`
-
-- <i class="fab fa-function"></i> `matlab`
-
-- <i class="fas fa-code-branch"></i> `Git`
-
-- <i class="fab fa-github"></i> `GitHub`
-
-- <i class="fab fa-markdown"></i> `Markdown`
-
-- <i class="fas fa-image"></i> `Illustrator`
-
-- <i class="fas fa-file"></i> `InDesign`
-
-- <i class="fas fa-user-edit"></i> `text editing`
-
-- <i class="fas fa-chalkboard-teacher"></i> `communication`
-
-- <i class="fas fa-pen-fancy"></i> `journalistic writing`
-
-- <i class="fas fa-pen"></i> `creative writing`
-
-:::
-
-Awards {data-icon=award}
---------------------------------------------------------------------------------
-
-```{r awards}
-CV %<>% print_section('awards')
-```
-
-::: aside
-
-**REFEREES** 
-
-- <i class="fas fa-robot"></i> `PhD Supervisor: Dr. Gregory Jefferis, MRC Laboratory of Molecular Biology, Cambridge, jefferis@mrc-lmb.cam.ac.uk`
-
-- <i class="fas fa-user-secret"></i> `Current Supervisor: Prof. Rachel Wilson, Harvard Medical School, Rachel_Wilson@hms.harvard.edu`
-
-- <i class="fas fa-user-graduate"></i> `BSc Tutor at UCL: Dr. Marco Beato, UCL Neuroscience, Physiology and Pharmacology, m.beato@ucl.ac.uk`
-
-- <i class="fas fa-user-astronaut"></i> `Supervisee: Serene Dhawan, The Francis Crick Institute, serenedhawan@gmail.com`
 
 :::
 
@@ -231,6 +189,10 @@ Publications {data-icon=book}
 print_text_block(CV, 'publications')
 ```
 
+<i class="ai ai-biorxiv"></i> Most of my work has first been published on bioRxiv
+
+<i class="ai ai-open-access"></i> Much of my work comes with open source R code
+
 :::
 
 ```{r publications}
@@ -243,8 +205,10 @@ publications$position <- author_position(authorlist, scholar::get_profile(id)$na
 publications$position[is.na(publications$position)] = 6
 publications$IF <- get_impactfactor(publications$journal, max.distance = 0.05)$ImpactFactor
 publications$IF[is.na(publications$IF)] = 0
+publications$author = gsub("Bates","**Bates**",publications$author)
 publications$position[publications$title=='Information flow, cell types and stereotypy in a full olfactory connectome'] = 1
-articles = unique(publications$cid)
+publications$title = paste0("<a href='","https://scholar.google.com/scholar?oi=bibs&hl=en&cites=",gsub(",.*","",publications$cid), "'>",publications$title,"</a>")
+publications = publications[,c("title","author","journal","year","cites", "position","IF")]
 formattable(publications, list(
   position = color_bar("lightgreen", fun = "normalize"),
   cites = color_bar("coral", fun = "normalize"),
@@ -260,6 +224,20 @@ Selected Talks {data-icon=chalkboard-teacher}
 ```{r meetings}
 CV %<>% print_section('meetings')
 ```
+
+::: aside
+
+**REFEREES** 
+
+- <i class="fas fa-robot"></i> `PhD Supervisor: Dr. Gregory Jefferis, MRC Laboratory of Molecular Biology, Cambridge, jefferis@mrc-lmb.cam.ac.uk`
+
+- <i class="fas fa-user-secret"></i> `Current Supervisor: Prof. Rachel Wilson, Harvard Medical School, Rachel_Wilson@ hms.harvard.edu`
+
+- <i class="fas fa-user-graduate"></i> `BSc Tutor at UCL: Dr. Marco Beato, UCL Neuroscience, Physiology and Pharmacology, m.beato@ucl.ac.uk`
+
+- <i class="fas fa-user-astronaut"></i> `Supervisee: Serene Dhawan, The Francis Crick Institute, serenedhawan@gmail.com`
+
+:::
 
 Selected Posters {data-icon=chart-area}
 --------------------------------------------------------------------------------

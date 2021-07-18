@@ -25,7 +25,4 @@ cleanAbs = subset(cleanAbs, freq > 1)
 cleanAbs$word = gsub('monospace','',cleanAbs$word)
 wordcloud2(cleanAbs, size = 1.5, color = 'random-light', backgroundColor="white")
 ```
-
-Maybe a quick way to view my interests. Here is a word cloud from the abstracts of my published work. 
-
 Learn [more about me here](https://asbates/about).

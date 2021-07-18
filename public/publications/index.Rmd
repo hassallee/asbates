@@ -20,7 +20,8 @@ publications$author_position[is.na(publications$author_position)] = 6
 publications$impact_factor <- get_impactfactor(publications$journal, max.distance = 0.05)$ImpactFactor
 publications$impact_factor[is.na(publications$impact_factor)] = 0
 publications$author_position[publications$title=='Information flow, cell types and stereotypy in a full olfactory connectome'] = 1
-articles = unique(publications$cid)
+publications$author = gsub("Bates","**Bates**",publications$author)
+publications$title = paste0("<a href='","https://scholar.google.com/scholar?oi=bibs&hl=en&cites=",gsub(",.*","",publications$cid), "'>",publications$title,"</a>")
 formattable(publications, list(
   author_position = color_bar("lightgreen", fun = "normalize"),
   cites = color_bar("coral", fun = "normalize"),
