@@ -9,7 +9,7 @@ output:
   pagedown::html_resume:
     css: [ 'dd_cv.css', 'custom.css','resume']
     self_contained: true
-# knit: pagedown::chrome_print      
+knit: pagedown::chrome_print      
 ---
 ```{r startup, echo = FALSE, message = FALSE, warning = FALSE}
 knitr::opts_chunk$set(
