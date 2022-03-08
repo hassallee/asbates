@@ -2,3 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
+public/rmarkdown-libs/.DS_Store
+.DS_Store
